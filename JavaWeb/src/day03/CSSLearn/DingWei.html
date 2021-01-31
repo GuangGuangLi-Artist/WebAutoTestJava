@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Css定位</title>
+    <style type="text/css">
+        div{
+            border-style: solid;
+            width: 300px;
+            height: 100px;
+            padding-top: 40px;/*内边距*/
+            padding-left: 80px;
+            margin-left: 800px;
+
+        }
+        .one{
+            position: relative;/*相对定位 相对定位是相对于元素原本的位置进行移动的*/
+            top:20px;
+        }
+        .two{
+            position: absolute;/*绝对定位是相对于整个页面而言*/
+            top: 350px;
+        }
+        .three{
+            position: fixed;/* 固定定位: 固定定位是相对于整个浏览器而已的*/
+            top: 1190px;
+            left: 1370px;
+
+        }
+    </style>
+</head>
+<body>
+<div class="one">这是第一个div</div>
+<div class="two">这是第二个div</div>
+<div class="three">这是第三个div</div>
+
+</body>
+</html>

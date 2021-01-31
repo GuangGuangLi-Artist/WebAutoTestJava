@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自定义对象</title>
+    <script type="text/javascript">
+        //方式一使用无参的函数创建对象。
+        function Person(){};
+            var p = new Person();//创建了一个pserson对象了
+            p.id = 12;
+            p.name = "陈涛";
+
+        document.write("编号：" + p.id  + " 姓名：" + p.name + "<br/>");
+
+        //方式2使用带参的函数创建对象。
+        function Animal(id,name) {
+            this.id = id;
+            this.name = name;
+            this.say = function () {
+                alert("我是动物")
+            }
+        }
+
+        var ani = new Animal(13,"小花");
+        document.write("编号：" + ani.id  + " 姓名：" + ani.name + ";" +  ani.say() + "<br/>");
+
+        //方式3 使用Object函数创建对象
+        var d = new Object();
+        d.id = 14;
+        d.name = "小狗";
+        document.write("编号：" + d.id  + " 姓名：" + d.name + "<br/>");
+
+
+        //方式4 使用字面量的方式创建.
+        var cat = {
+            id:15,
+            name:"小猫",
+            run:function() {
+                alert("小猫在跑");
+            }
+        };
+
+        document.write("编号：" + cat.id  + " 姓名：" + cat.name + ";" +  cat.run() + "<br/>");
+
+
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

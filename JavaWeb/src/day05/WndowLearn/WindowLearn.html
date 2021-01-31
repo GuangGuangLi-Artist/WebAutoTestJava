@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Window对象</title>
+    <script type="text/javascript">
+        function showAd() {
+            // for (var i = 0; i < 5; i++) {
+            //
+            // }
+            open("ad.html","_blank","height=400px,width=400px,toolbar=no,location=no top=200px");
+
+        }
+
+        //var id = window.setInterval("showAd()",3000);
+        window.setTimeout("showAd()",3000);
+
+        function small() {
+            window.resizeTo(200,300);
+        }
+
+        function moveBy() {
+            for (var i = 0; i <100 ; i++) {
+                window.moveBy(50,0);
+            }
+        }
+
+        // function clearIntervalTest() {
+        //     window.clearInterval(id);
+        // }
+
+    </script>
+</head>
+<body>
+<input type="button" onclick="showAd()" value="下载电影">
+<input type="button" onclick="small()" value="变小">
+<input type="button" onclick="moveBy()" value="moveBy">
+<input type="button" onclick="clearIntervalTest()" value="clearIntervalTest">
+</body>
+</html>

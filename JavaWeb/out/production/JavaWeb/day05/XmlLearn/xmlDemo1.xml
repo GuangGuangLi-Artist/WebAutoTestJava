@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="test.css" ?>
+<person>
+    <name>张三</name>
+    <age>20</age>
+    <cat>猫</cat>
+    <a>a&lt;b</a>
+    <!-- 这是注释  并且注释不能嵌套  注释不能放到第一行  第一行第一列必须方文档声明-->
+    <!-- CDATA区 把特殊字符，当做文本内容，而不是标签-->
+    <![CDATA[<b>if(a<b && b<c && c<d) {}</b>]]>
+
+    <!-- PI指令 可以在xml中设置样式-->
+    <!--<?xml-stylesheet type="text/css" href="test.css" ?>-->
+
+
+
+</person>

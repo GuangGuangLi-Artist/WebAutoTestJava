@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<!--这是注释--><input type="text" id="username"><img src="33.jpg">
+</body>
+
+<script type="text/javascript">
+    var bodyNode = document.getElementsByTagName("body")[0];
+    var bodyparentNode = bodyNode.parentNode;
+    //alert("body的父节点是:" + bodyparentNode)
+
+    //子节点
+    var bodyChildern = bodyNode.childNodes;
+    for (var i = 0; i <bodyChildern.length ; i++) {
+        //alert("节点的名称" + bodyChildern[i].nodeName + " 对象的类型: " + bodyChildern[i].nodeType);
+        if(bodyChildern[i].nodeType == 1){
+            alert("节点的名称" + bodyChildern[i].nodeName + " 对象的类型: " + bodyChildern[i].nodeType);
+        }
+
+    }
+    alert("第一个子节点" + bodyNode.firstChild.nodeName);
+    alert("最后一个子节点" + bodyNode.lastChild.nodeName);
+
+
+    //找兄弟节点
+    var inputNode = document.getElementById("username");
+    alert("下个兄弟节点：" + inputNode.nextSibling.nodeName );
+    alert("上个兄弟节点：" + inputNode.previousSibling.nodeName );
+
+
+</script>
+</html>

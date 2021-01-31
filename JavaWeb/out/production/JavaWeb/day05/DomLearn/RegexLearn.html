@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+
+        var str1 = "hello123";
+        var reg1 = /^[A-Z0-9]+$/i;
+        alert("匹配吗？"+reg1.test(str1));
+
+
+        var str = "da jia hao hao xue xi a";
+        var reg = /\b[a-z]{3}\b/gi;
+        var line = "";
+        while ((line=reg.exec(str)) != null){
+            document.write(line + "<br/>");
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

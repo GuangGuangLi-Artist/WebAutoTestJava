@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        function showCity() {
+            var citys = [[],["广州","佛山","湛江","中山"],["长沙","衡阳","岳阳","郴州"],["南宁","桂林","贵港","柳州"]];
+
+            var provinceNode = document.getElementById("province");
+
+            var selectIndex = provinceNode.selectedIndex;
+
+            var cityDatas = citys[selectIndex];
+
+
+            var cityNode = document.getElementById("city");
+
+            //设置option的个数
+            cityNode.options.length = 1;
+
+            for (var i = 0; i <cityDatas.length ; i++) {
+                var option = document.createElement("option");
+                option.innerHTML = cityDatas[i];
+                cityNode.appendChild(option);
+            }
+        }
+    </script>
+</head>
+<body>
+省份<select id="province" onchange="showCity()">
+    <option>省份</option>
+    <option>广东</option>
+    <option>湖南</option>
+    <option>广西</option>
+</select>
+城市<select id="city">
+    <option>城市</option>
+</select>
+</body>
+</html>
