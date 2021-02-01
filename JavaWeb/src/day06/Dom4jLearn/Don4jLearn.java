@@ -2,6 +2,7 @@ package day06.Dom4jLearn;
 
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
+import org.dom4j.DocumentHelper;
 import org.dom4j.Element;
 import org.dom4j.io.OutputFormat;
 import org.dom4j.io.SAXReader;
@@ -18,8 +19,39 @@ public class Don4jLearn {
 
         //selectName();
         //selectSon();
-        createNode();
+        //createNode();
+        addBeforeAge();
     }
+
+    private static void addBeforeAge() throws DocumentException, IOException {
+
+        //创建解析器
+        SAXReader saxReader = new SAXReader();
+        //得到document
+        Document document = saxReader.read("E:\\ideaworkspace\\WebAutoTestJava\\JavaWeb\\src\\day05\\XmlLearn\\xmlParse.xml");
+
+        //得到根节点
+        Element root = document.getRootElement();
+
+        //得到第一个p1
+        Element p1 = root.element("p1");
+
+        //得到p1下的所有元素
+        List<Element> list = p1.elements();
+
+
+        //创建元素
+        Element school = DocumentHelper.createElement("school");
+        school.setText("wcit");
+        //在特定位置添加
+        list.add(1,school);
+        //回写xml
+        OutputFormat format = OutputFormat.createPrettyPrint();
+        XMLWriter xmlWriter = new XMLWriter(new FileOutputStream("E:\\ideaworkspace\\WebAutoTestJava\\JavaWeb\\src\\day05\\XmlLearn\\xmlParse.xml"),format);
+        xmlWriter.write(document);
+        xmlWriter.close();
+    }
+
 
     private static void createNode() throws IOException, DocumentException {
         //创建解析器
