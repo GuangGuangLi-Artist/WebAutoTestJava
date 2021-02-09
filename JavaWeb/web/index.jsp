@@ -6,5 +6,8 @@
   </head>
   <body>
   <p>first page</p>
+  <h3>
+    ${header['User-Agent']}
+  </h3>
   </body>
 </html>

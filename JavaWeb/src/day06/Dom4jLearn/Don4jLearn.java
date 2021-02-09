@@ -20,7 +20,89 @@ public class Don4jLearn {
         //selectName();
         //selectSon();
         //createNode();
-        addBeforeAge();
+        //addBeforeAge();
+
+        //modifyAge();
+
+        //deleteSchool();
+        
+        //获取属性值
+        getAttribute();
+    }
+
+    private static void getAttribute() throws DocumentException {
+        //创建解析器
+        SAXReader saxReader = new SAXReader();
+        //得到document
+        Document document = saxReader.read("E:\\ideaworkspace\\WebAutoTestJava\\JavaWeb\\src\\day05\\XmlLearn\\xmlParse.xml");
+
+
+        //得到根节点
+        Element root = document.getRootElement();
+
+        //得到第一个p1
+        Element p1 = root.element("p1");
+
+        //得到属性值
+        String p1Attribute = p1.attributeValue("id1");
+        System.out.println(p1Attribute);
+    }
+
+    private static void deleteSchool() throws IOException, DocumentException {
+        //创建解析器
+        SAXReader saxReader = new SAXReader();
+        //得到document
+        Document document = saxReader.read("E:\\ideaworkspace\\WebAutoTestJava\\JavaWeb\\src\\day05\\XmlLearn\\xmlParse.xml");
+
+
+        //得到根节点
+        Element root = document.getRootElement();
+
+        //得到第一个p1
+        Element p1 = root.element("p1");
+        
+        //得到school
+        Element school = p1.element("school");
+
+        //删除school
+        p1.remove(school);
+
+        //回写xml
+        OutputFormat format = OutputFormat.createPrettyPrint();
+        XMLWriter xmlWriter = new XMLWriter(new FileOutputStream("E:\\ideaworkspace\\WebAutoTestJava\\JavaWeb\\src\\day05\\XmlLearn\\xmlParse.xml"),format);
+        xmlWriter.write(document);
+        xmlWriter.close();
+
+
+    }
+
+    private static void modifyAge() throws IOException, DocumentException {
+        //创建解析器
+        SAXReader saxReader = new SAXReader();
+        //得到document
+        Document document = saxReader.read("E:\\ideaworkspace\\WebAutoTestJava\\JavaWeb\\src\\day05\\XmlLearn\\xmlParse.xml");
+
+
+        //得到根节点
+        Element root = document.getRootElement();
+
+        //得到第一个p1
+        Element p1 = root.element("p1");
+
+        //得到第一个p1下的age
+        Element age = p1.element("age");
+
+        //修改age的值
+        age.setText("68");
+
+        //回写xml
+        OutputFormat format = OutputFormat.createPrettyPrint();
+        XMLWriter xmlWriter = new XMLWriter(new FileOutputStream("E:\\ideaworkspace\\WebAutoTestJava\\JavaWeb\\src\\day05\\XmlLearn\\xmlParse.xml"),format);
+        xmlWriter.write(document);
+        xmlWriter.close();
+
+
+
     }
 
     private static void addBeforeAge() throws DocumentException, IOException {
