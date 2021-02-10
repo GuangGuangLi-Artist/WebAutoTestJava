@@ -26,6 +26,7 @@
     <servlet>
         <servlet-name>HttpServletLearn1</servlet-name>
         <servlet-class>day09.ServerletLearn.HttpServletLearn1</servlet-class>
+        <load-on-startup>0</load-on-startup>
     </servlet>
     <servlet-mapping>
         <servlet-name>HttpServletLearn1</servlet-name>
@@ -39,6 +40,67 @@
     <servlet-mapping>
         <servlet-name>HttpServletLearn3</servlet-name>
         <url-pattern>/HttpServletLearn3</url-pattern>
+        <url-pattern>/HttpServletLearn4</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetServletContext</servlet-name>
+        <servlet-class>day09.ServerletLearn.GetServletContext</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetServletContext</servlet-name>
+        <url-pattern>/GetServletContext</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SetServletContext</servlet-name>
+        <servlet-class>day09.ServerletLearn.SetServletContext</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SetServletContext</servlet-name>
+        <url-pattern>/SetServletContext</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>getContextParam</servlet-name>
+        <servlet-class>day09.ServerletLearn.getContextParam</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>getContextParam</servlet-name>
+        <url-pattern>/getContextParam</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetResourcePath</servlet-name>
+        <servlet-class>day09.ServerletLearn.GetResourcePath</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetResourcePath</servlet-name>
+        <url-pattern>/GetResourcePath</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CountVisit</servlet-name>
+        <servlet-class>day09.ServerletLearn.CountVisit</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CountVisit</servlet-name>
+        <url-pattern>/CountVisit</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GetResourcesUnderClassPath</servlet-name>
+        <servlet-class>day09.ServerletLearn.GetResourcesUnderClassPath</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetResourcesUnderClassPath</servlet-name>
+        <url-pattern>/GetResourcesUnderClassPath</url-pattern>
+    </servlet-mapping>
+
+    <context-param>
+        <param-name>context_param</param-name>
+        <param-value>context_value</param-value>
+    </context-param>
+
+
 
 </web-app>

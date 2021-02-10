@@ -13,6 +13,12 @@ public class HttpServletLearn1  extends HttpServlet {
         super.doGet(req, resp);
     }*/
 
+
+    @Override
+    public void init() throws ServletException {
+        System.out.println("hello 这个在创建时就启动加载");
+    }
+
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         System.out.println("doPost");
