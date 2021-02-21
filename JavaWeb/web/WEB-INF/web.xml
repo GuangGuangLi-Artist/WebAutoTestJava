@@ -95,6 +95,38 @@
         <servlet-name>GetResourcesUnderClassPath</servlet-name>
         <url-pattern>/GetResourcesUnderClassPath</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>ResponseByteData</servlet-name>
+        <servlet-class>day10.RequestServletLearn.ResponseByteData</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ResponseByteData</servlet-name>
+        <url-pattern>/ResponseByteData</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>RedirectServletB</servlet-name>
+        <servlet-class>day10.RequestServletLearn.RedirectServletB</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RedirectServletB</servlet-name>
+        <url-pattern>/RedirectServletB</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>RequestServletLearn</servlet-name>
+        <servlet-class>day10.RequestServletLearn.RequestServletLearn</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RequestServletLearn</servlet-name>
+        <url-pattern>/RequestServletLearn</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>RefererLearn</servlet-name>
+        <servlet-class>day10.RequestServletLearn.RefererLearn</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RefererLearn</servlet-name>
+        <url-pattern>/RefererLearn</url-pattern>
+    </servlet-mapping>
 
     <context-param>
         <param-name>context_param</param-name>
