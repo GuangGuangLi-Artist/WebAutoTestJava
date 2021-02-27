@@ -127,6 +127,50 @@
         <servlet-name>RefererLearn</servlet-name>
         <url-pattern>/RefererLearn</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>RequestParam</servlet-name>
+        <servlet-class>day10.RequestServletLearn.RequestParam</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RequestParam</servlet-name>
+        <url-pattern>/RequestParam</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TransmitOne</servlet-name>
+        <servlet-class>day10.RequestServletLearn.TransmitOne</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TransmitOne</servlet-name>
+        <url-pattern>/TransmitOne</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TransmiTwo</servlet-name>
+        <servlet-class>day10.RequestServletLearn.TransmitTwo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TransmiTwo</servlet-name>
+        <url-pattern>/TransmiTwo</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TransmiThree</servlet-name>
+        <servlet-class>day10.RequestServletLearn.TransmitThree</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TransmiThree</servlet-name>
+        <url-pattern>/TransmiThree</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ResponseEncoding</servlet-name>
+        <servlet-class>day10.RequestServletLearn.ResponseEncoding</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ResponseEncoding</servlet-name>
+        <url-pattern>/ResponseEncoding</url-pattern>
+    </servlet-mapping>
 
     <context-param>
         <param-name>context_param</param-name>
