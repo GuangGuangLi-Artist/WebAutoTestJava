@@ -17,6 +17,7 @@ public class TransmitOne extends HttpServlet {
         //req.getRequestDispatcher("/TransmiTwo").forward(req,resp);//设置请求转发  常用 留头不留体
 
         resp.getWriter().print("aaa + ");
+        req.setAttribute("name","liguang");
         req.getRequestDispatcher("/TransmiThree").include(req,resp);//留头又留体
     }
 }

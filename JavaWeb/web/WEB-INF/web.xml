@@ -171,6 +171,15 @@
         <servlet-name>ResponseEncoding</servlet-name>
         <url-pattern>/ResponseEncoding</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>SumServlet</servlet-name>
+        <servlet-class>day11.AllServlet.SumServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SumServlet</servlet-name>
+        <url-pattern>/SumServlet</url-pattern>
+    </servlet-mapping>
 
     <context-param>
         <param-name>context_param</param-name>
