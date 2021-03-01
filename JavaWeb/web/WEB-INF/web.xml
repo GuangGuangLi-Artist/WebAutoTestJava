@@ -180,6 +180,14 @@
         <servlet-name>SumServlet</servlet-name>
         <url-pattern>/SumServlet</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>day11.Login.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
 
     <context-param>
         <param-name>context_param</param-name>
