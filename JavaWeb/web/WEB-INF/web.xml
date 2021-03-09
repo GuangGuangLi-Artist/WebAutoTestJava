@@ -5,6 +5,11 @@
 		  http://java.sun.com/xml/ns/javaee/web-app_4_0.xsd"
            version="4.0">
 
+    <error-page>
+        <error-code>404</error-code>
+        <location>/day12/error/b.jsp</location>
+    </error-page>
+
     <servlet>
         <servlet-name>ServletLearn1</servlet-name>
         <servlet-class>day09.ServerletLearn.ServletLearn1</servlet-class>
