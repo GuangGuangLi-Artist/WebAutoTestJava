@@ -7,19 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4207979-883a-4ee3-a0fa-a012de81bd01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day12/ELLearn/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day12/ELLearn/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day12/JavaBeanLearn/domain/CommonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day12/JavaBeanLearn/domain/IntrospectionLearn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day12/JavaBeanLearn/domain/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day12/JavaBeanLearn/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day12/day12笔记.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/day12/ELLearn/ELtext.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/day12/ELLearn/ELtext2.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/day12/error/a.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/day12/error/b.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/day12/error/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day12/ELFunction/Myfunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/standard.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/tlds/myfunction.tld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/day12/cookies/cookies.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/day12/fn/a.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/day12/fn/selfElFunctionTest.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/day12/header/headers.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/day12/initparam/initparams.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/day12/pageContext/page.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/day12/params/params.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,42 +34,44 @@
     <session id="1097621376">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="24" />
-          <entry key="project.open.time.10" value="6" />
+          <entry key="project.closed" value="29" />
+          <entry key="project.open.time.10" value="7" />
           <entry key="project.open.time.11" value="5" />
-          <entry key="project.open.time.12" value="5" />
+          <entry key="project.open.time.12" value="6" />
           <entry key="project.open.time.13" value="3" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="25" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="JspBase1" value="2" />
           <entry key="class" value="4" />
-          <entry key="html" value="9" />
-          <entry key="java" value="64" />
-          <entry key="jsp" value="25" />
-          <entry key="md" value="14" />
+          <entry key="html" value="10" />
+          <entry key="java" value="65" />
+          <entry key="jsp" value="35" />
+          <entry key="md" value="16" />
           <entry key="properties" value="1" />
+          <entry key="tld" value="1" />
           <entry key="txt" value="3" />
-          <entry key="xml" value="15" />
+          <entry key="xml" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="4" />
-          <entry key="HTML" value="9" />
-          <entry key="JAVA" value="64" />
-          <entry key="JSP" value="27" />
-          <entry key="Markdown" value="14" />
+          <entry key="HTML" value="10" />
+          <entry key="JAVA" value="65" />
+          <entry key="JSP" value="37" />
+          <entry key="Markdown" value="16" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Properties" value="1" />
-          <entry key="XML" value="15" />
+          <entry key="XML" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -76,21 +79,22 @@
           <entry key="JspBase1" value="208" />
           <entry key="dummy" value="1" />
           <entry key="html" value="443" />
-          <entry key="java" value="8309" />
-          <entry key="jsp" value="1602" />
+          <entry key="java" value="8352" />
+          <entry key="jsp" value="2359" />
           <entry key="md" value="148" />
+          <entry key="tld" value="43" />
           <entry key="txt" value="70" />
-          <entry key="xml" value="488" />
+          <entry key="xml" value="507" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="443" />
-          <entry key="JAVA" value="8309" />
-          <entry key="JSP" value="1810" />
+          <entry key="JAVA" value="8352" />
+          <entry key="JSP" value="2567" />
           <entry key="Markdown" value="148" />
           <entry key="PLAIN_TEXT" value="71" />
-          <entry key="XML" value="488" />
+          <entry key="XML" value="550" />
         </counts>
       </usages-collector>
     </session>
@@ -98,10 +102,77 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/day12/params/params.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/day12/header/headers.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/day12/cookies/cookies.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/day12/fn/a.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/day12/ELFunction/Myfunction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#79#80#0" expanded="true" />
+                <element signature="e#103#104#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/tlds/myfunction.tld">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/day12/fn/selfElFunctionTest.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/day12/day12笔记.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="4216">
+              <first_editor relative-caret-position="1254">
                 <caret line="248" selection-start-line="248" selection-end-line="248" />
               </first_editor>
               <second_editor />
@@ -110,127 +181,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/day12/JavaBeanLearn/domain/IntrospectionLearn.java">
+        <entry file="file://$PROJECT_DIR$/web/day12/pageContext/page.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/day12/JavaBeanLearn/domain/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="e#426#427#0" expanded="true" />
-                <element signature="e#466#467#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/day11/Cookie/NewSessionId.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/day12/JavaBeanLearn/domain/CommonUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/day12/ELLearn/ELtext.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/day12/ELLearn/Address.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="28" column="28" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="28" />
-              <folding>
-                <element signature="e#128#129#0" expanded="true" />
-                <element signature="e#155#156#0" expanded="true" />
-                <element signature="e#195#196#0" expanded="true" />
-                <element signature="e#227#228#0" expanded="true" />
-                <element signature="e#260#261#0" expanded="true" />
-                <element signature="e#289#290#0" expanded="true" />
-                <element signature="e#333#334#0" expanded="true" />
-                <element signature="e#369#370#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/day12/ELLearn/Employee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="30" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="30" />
-              <folding>
-                <element signature="e#158#159#0" expanded="true" />
-                <element signature="e#185#186#0" expanded="true" />
-                <element signature="e#225#226#0" expanded="true" />
-                <element signature="e#257#258#0" expanded="true" />
-                <element signature="e#290#291#0" expanded="true" />
-                <element signature="e#319#320#0" expanded="true" />
-                <element signature="e#363#364#0" expanded="true" />
-                <element signature="e#399#400#0" expanded="true" />
-                <element signature="e#434#435#0" expanded="true" />
-                <element signature="e#464#465#0" expanded="true" />
-                <element signature="e#511#512#0" expanded="true" />
-                <element signature="e#549#550#0" expanded="true" />
-                <element signature="e#856#857#0" expanded="true" />
-                <element signature="e#880#881#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/day12/ELLearn/ELtext2.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/day12/JavaBeanLearn/domain/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-              <folding>
-                <element signature="e#358#359#0" expanded="true" />
-                <element signature="e#387#388#0" expanded="true" />
-                <element signature="e#431#432#0" expanded="true" />
-                <element signature="e#467#468#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="357">
+              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -258,16 +212,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/day09/ServerletLearn/getContextParam.java" />
-        <option value="$PROJECT_DIR$/src/day09/ServerletLearn/CountVisit.java" />
-        <option value="$PROJECT_DIR$/src/day09/ServerletLearn/GetResourcePath.java" />
-        <option value="$PROJECT_DIR$/src/day09/ServerletLearn/a.txt" />
-        <option value="$PROJECT_DIR$/src/day09/ServerletLearn/b.txt" />
-        <option value="$PROJECT_DIR$/src/c.txt" />
-        <option value="$PROJECT_DIR$/src/day09/ServerletLearn/GetResourcesUnderClassPath.java" />
-        <option value="$PROJECT_DIR$/src/day10/RequestServletLearn/ResponseByteData.java" />
-        <option value="$PROJECT_DIR$/src/day10/RequestServletLearn/RequestServletLearn.java" />
-        <option value="$PROJECT_DIR$/src/day10/RequestServletLearn/RefererLearn.java" />
         <option value="$PROJECT_DIR$/web/referer.html" />
         <option value="$PROJECT_DIR$/src/day10/RequestServletLearn/RequestParam.java" />
         <option value="$PROJECT_DIR$/src/day10/RequestServletLearn/TransmitTwo.java" />
@@ -299,7 +243,6 @@
         <option value="$PROJECT_DIR$/web/day12/error/a.jsp" />
         <option value="$PROJECT_DIR$/web/day12/error/error.jsp" />
         <option value="$PROJECT_DIR$/web/day12/error/b.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/day12/day12笔记.md" />
         <option value="$PROJECT_DIR$/src/day12/JavaBeanLearn/domain/Person.java" />
         <option value="$PROJECT_DIR$/src/day12/JavaBeanLearn/domain/User.java" />
@@ -309,6 +252,17 @@
         <option value="$PROJECT_DIR$/src/day12/ELLearn/Address.java" />
         <option value="$PROJECT_DIR$/src/day12/ELLearn/Employee.java" />
         <option value="$PROJECT_DIR$/web/day12/ELLearn/ELtext2.jsp" />
+        <option value="$PROJECT_DIR$/web/day12/params.jsp" />
+        <option value="$PROJECT_DIR$/web/day12/params/params.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/day12/initparam/initparams.jsp" />
+        <option value="$PROJECT_DIR$/web/day12/pageContext/page.jsp" />
+        <option value="$PROJECT_DIR$/web/day12/header/headers.jsp" />
+        <option value="$PROJECT_DIR$/web/day12/cookies/cookies.jsp" />
+        <option value="$PROJECT_DIR$/web/day12/fn/a.jsp" />
+        <option value="$PROJECT_DIR$/src/day12/ELFunction/Myfunction.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/tlds/myfunction.tld" />
+        <option value="$PROJECT_DIR$/web/day12/fn/selfElFunctionTest.jsp" />
       </list>
     </option>
   </component>
@@ -380,13 +334,20 @@
               <item name="JavaWeb" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="day12" type="462c0819:PsiDirectoryNode" />
-              <item name="ELLearn" type="462c0819:PsiDirectoryNode" />
+              <item name="fn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaWeb" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaWeb" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="tlds" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaWeb" type="b2602c69:ProjectViewProjectNode" />
@@ -403,22 +364,24 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1615304083210" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1615562890747" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="E:/java-api中文版/jarPackage/commons-io-2.8.0-bin/commons-io-2.8.0/commons-io-2.8.0.jar!/" />
+    <property name="last_opened_file_path" value="E:/java-api中文版/jarPackage/jakarta-taglibs-standard-1.1.2/jakarta-taglibs-standard-1.1.2/lib/standard.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\ideaworkspace\WebAutoTestJava\JavaWeb\web" />
-      <recent name="E:\ideaworkspace\WebAutoTestJava\JavaWeb\src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\ideaworkspace\WebAutoTestJava\JavaWeb\web\day12\params" />
       <recent name="E:\ideaworkspace\WebAutoTestJava\JavaWeb\src\day11" />
       <recent name="E:\ideaworkspace\WebAutoTestJava\JavaWeb\web\day11" />
+      <recent name="E:\ideaworkspace\WebAutoTestJava\JavaWeb\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ideaworkspace\WebAutoTestJava\JavaWeb\web\WEB-INF\lib" />
+      <recent name="E:\ideaworkspace\WebAutoTestJava\JavaWeb\web" />
       <recent name="E:\ideaworkspace\WebAutoTestJava\JavaWeb\src" />
     </key>
   </component>
@@ -434,197 +397,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.ELtext2.jsp (1)">
-    <configuration name="IntrospectionLearn.fun3Introspection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaWeb" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day12.JavaBeanLearn.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day12.JavaBeanLearn.domain" />
-      <option name="MAIN_CLASS_NAME" value="day12.JavaBeanLearn.domain.IntrospectionLearn" />
-      <option name="METHOD_NAME" value="fun3Introspection" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ELtext2.jsp (1)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:80/day12/ELLearn/ELtext2.jsp" />
-      <deployment>
-        <artifact name="web:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="ELtext2_jsp_(1)_JavaWeb" />
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="web:war exploded" />
-        </option>
-      </method>
-    </configuration>
-    <configuration name="ELtext2.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:80/day12/ELLearn/ELtext2.jsp" />
-      <deployment>
-        <artifact name="web:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="ELtext2_jsp_JavaWeb" />
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="7146" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="web:war exploded" />
-        </option>
-      </method>
-    </configuration>
-    <configuration name="ELtext.jsp (1)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:80/day12/ELLearn/ELtext.jsp" />
-      <deployment>
-        <artifact name="web:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="ELtext_jsp_(1)_JavaWeb" />
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="web:war exploded" />
-        </option>
-      </method>
-    </configuration>
-    <configuration name="ELtext.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:80/day12/ELLearn/ELtext.jsp" />
-      <deployment>
-        <artifact name="web:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="ELtext_jsp_JavaWeb" />
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="web:war exploded" />
-        </option>
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Tomcat Server.selfElFunctionTest.jsp (2)">
     <configuration name="Tomcat 9.0.12" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
         <artifact name="web:war exploded">
@@ -663,21 +436,216 @@
         </option>
       </method>
     </configuration>
+    <configuration name="a.jsp (1)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:80/day12/fn/a.jsp" />
+      <deployment>
+        <artifact name="web:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="a_jsp_(1)_JavaWeb" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="web:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="a.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:80/day12/fn/a.jsp" />
+      <deployment>
+        <artifact name="web:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="a_jsp_JavaWeb_2" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="web:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="selfElFunctionTest.jsp (1)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:80/day12/fn/selfElFunctionTest.jsp" />
+      <deployment>
+        <artifact name="web:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="selfElFunctionTest_jsp_(1)_JavaWeb" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="web:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="selfElFunctionTest.jsp (2)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:80/day12/fn/selfElFunctionTest.jsp" />
+      <deployment>
+        <artifact name="web:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="selfElFunctionTest_jsp_(2)_JavaWeb" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="web:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="selfElFunctionTest.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:80/day12/fn/selfElFunctionTest.jsp" />
+      <deployment>
+        <artifact name="web:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="selfElFunctionTest_jsp_JavaWeb" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="web:war exploded" />
+        </option>
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Tomcat Server.Tomcat 9.0.12" />
-      <item itemvalue="JUnit.IntrospectionLearn.fun3Introspection" />
-      <item itemvalue="Tomcat Server.ELtext.jsp" />
-      <item itemvalue="Tomcat Server.ELtext.jsp (1)" />
-      <item itemvalue="Tomcat Server.ELtext2.jsp" />
-      <item itemvalue="Tomcat Server.ELtext2.jsp (1)" />
+      <item itemvalue="Tomcat Server.a.jsp" />
+      <item itemvalue="Tomcat Server.a.jsp (1)" />
+      <item itemvalue="Tomcat Server.selfElFunctionTest.jsp" />
+      <item itemvalue="Tomcat Server.selfElFunctionTest.jsp (1)" />
+      <item itemvalue="Tomcat Server.selfElFunctionTest.jsp (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Tomcat Server.ELtext2.jsp (1)" />
-        <item itemvalue="Tomcat Server.ELtext2.jsp" />
-        <item itemvalue="Tomcat Server.ELtext.jsp (1)" />
-        <item itemvalue="Tomcat Server.ELtext.jsp" />
-        <item itemvalue="JUnit.IntrospectionLearn.fun3Introspection" />
+        <item itemvalue="Tomcat Server.selfElFunctionTest.jsp (2)" />
+        <item itemvalue="Tomcat Server.selfElFunctionTest.jsp (1)" />
+        <item itemvalue="Tomcat Server.selfElFunctionTest.jsp" />
+        <item itemvalue="Tomcat Server.a.jsp (1)" />
+        <item itemvalue="Tomcat Server.a.jsp" />
       </list>
     </recent_temporary>
   </component>
@@ -715,7 +683,12 @@
       <workItem from="1614950024829" duration="2402000" />
       <workItem from="1615039037887" duration="5894000" />
       <workItem from="1615120458012" duration="599000" />
-      <workItem from="1615300678102" duration="3807000" />
+      <workItem from="1615300678102" duration="3892000" />
+      <workItem from="1615384038936" duration="2999000" />
+      <workItem from="1615471041827" duration="5843000" />
+      <workItem from="1615553955409" duration="1427000" />
+      <workItem from="1615559458991" duration="194000" />
+      <workItem from="1615559676188" duration="3051000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1612107454274</created>
@@ -780,7 +753,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614698994221</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="UUid">
+      <created>1615305433327</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1615305433328</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -816,7 +796,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114291000" />
+    <option name="totallyTimeSpent" value="127890000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -829,8 +809,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="234" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49702382" visible="true" weight="0.31876332" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49702382" visible="true" weight="0.33742005" />
       <window_info id="Structure" order="1" sideWeight="0.5029762" side_tool="true" weight="0.28997868" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -862,6 +843,39 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49702382" visible="true" weight="0.32622603" />
+      <window_info id="Structure" order="1" sideWeight="0.5029762" side_tool="true" weight="0.28997868" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" sideWeight="0.50233644" side_tool="true" weight="0.26865673" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.2781955" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39957035" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32975295" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32867885" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32975295" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50159913" side_tool="true" weight="0.2781955" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32867885" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -880,76 +894,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/day10/RequestServletLearn/ResonseServletLearn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day10/RequestServletLearn/TimedRrefresh.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day10/RequestServletLearn/RedirectServletA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" column="52" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day10/RequestServletLearn/ResponseByteData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day10/RequestServletLearn/RefererLearn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day10/RequestServletLearn/StopBrowserCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day10/RequestServletLearn/RedirectServletB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/referer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/hello/hello.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/hello/helloHttpservlet.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/day10/day10笔记.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1125,13 +1069,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/day11/Login/LoginSuccess.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -1167,23 +1104,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/day12/day12笔记.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="4216">
-            <caret line="248" selection-start-line="248" selection-end-line="248" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/day12/JavaBeanLearn/domain/IntrospectionLearn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
           <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1191,10 +1115,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1202,9 +1122,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day12/JavaBeanLearn/domain/CommonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/day12/ELLearn/ELtext.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day12/ELLearn/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day12/ELLearn/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="37" column="30" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/day12/ELLearn/ELtext2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
@@ -1212,76 +1164,97 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/referer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="203" column="4" selection-start-line="200" selection-start-column="19" selection-end-line="203" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/day12/initparam/initparams.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/day12/params/params.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/day12/header/headers.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/day12/cookies/cookies.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/day12/fn/a.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day12/ELFunction/Myfunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
-            <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#79#80#0" expanded="true" />
+            <element signature="e#103#104#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/day12/JavaBeanLearn/domain/CommonUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/src/day12/day12笔记.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1254">
+            <caret line="248" selection-start-line="248" selection-end-line="248" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/day12/ELLearn/Employee.java">
+    <entry file="file://$PROJECT_DIR$/web/day12/pageContext/page.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="30" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="30" />
-          <folding>
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#856#857#0" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="357">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/day12/ELLearn/Address.java">
+    <entry file="file://$PROJECT_DIR$/web/day12/fn/selfElFunctionTest.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="28" column="28" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="28" />
-          <folding>
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#155#156#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/day12/ELLearn/ELtext.jsp">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tlds/myfunction.tld">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/day12/ELLearn/ELtext2.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>

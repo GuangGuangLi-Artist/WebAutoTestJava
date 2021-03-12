@@ -74,5 +74,23 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://E:/java-api中文版/jarPackage/jakarta-taglibs-standard-1.1.2/jakarta-taglibs-standard-1.1.2/lib/jstl.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://E:/java-api中文版/jarPackage/jakarta-taglibs-standard-1.1.2/jakarta-taglibs-standard-1.1.2/lib/standard.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>

@@ -195,10 +195,12 @@
     </servlet-mapping>
 
     <context-param>
+        <param-name>xxx</param-name>
+        <param-value>Eljsp</param-value>
+    </context-param>
+    <context-param>
         <param-name>context_param</param-name>
         <param-value>context_value</param-value>
     </context-param>
-
-
 
 </web-app>
