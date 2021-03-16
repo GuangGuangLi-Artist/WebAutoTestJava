@@ -7,21 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4207979-883a-4ee3-a0fa-a012de81bd01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day12/ELFunction/Myfunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jstl.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/standard.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/tlds/myfunction.tld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/day12/cookies/cookies.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/day12/fn/a.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/day12/fn/selfElFunctionTest.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/day12/header/headers.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/day12/initparam/initparams.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/day12/pageContext/page.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/day12/params/params.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day13/day13笔记.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/day13/jstlTest1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/day13/jstlTest2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/day13/jstlTest3.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/day12/fn/a.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/day12/fn/a.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,18 +25,19 @@
     <session id="1097621376">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="29" />
+          <entry key="project.closed" value="32" />
           <entry key="project.open.time.10" value="7" />
           <entry key="project.open.time.11" value="5" />
           <entry key="project.open.time.12" value="6" />
-          <entry key="project.open.time.13" value="3" />
+          <entry key="project.open.time.13" value="4" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="30" />
+          <entry key="project.open.time.9" value="4" />
+          <entry key="project.opened" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -54,8 +46,8 @@
           <entry key="class" value="4" />
           <entry key="html" value="10" />
           <entry key="java" value="65" />
-          <entry key="jsp" value="35" />
-          <entry key="md" value="16" />
+          <entry key="jsp" value="39" />
+          <entry key="md" value="17" />
           <entry key="properties" value="1" />
           <entry key="tld" value="1" />
           <entry key="txt" value="3" />
@@ -67,8 +59,8 @@
           <entry key="CLASS" value="4" />
           <entry key="HTML" value="10" />
           <entry key="JAVA" value="65" />
-          <entry key="JSP" value="37" />
-          <entry key="Markdown" value="16" />
+          <entry key="JSP" value="41" />
+          <entry key="Markdown" value="17" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="18" />
@@ -80,10 +72,10 @@
           <entry key="dummy" value="1" />
           <entry key="html" value="443" />
           <entry key="java" value="8352" />
-          <entry key="jsp" value="2359" />
-          <entry key="md" value="148" />
+          <entry key="jsp" value="3175" />
+          <entry key="md" value="161" />
           <entry key="tld" value="43" />
-          <entry key="txt" value="70" />
+          <entry key="txt" value="73" />
           <entry key="xml" value="507" />
         </counts>
       </usages-collector>
@@ -91,9 +83,9 @@
         <counts>
           <entry key="HTML" value="443" />
           <entry key="JAVA" value="8352" />
-          <entry key="JSP" value="2567" />
-          <entry key="Markdown" value="148" />
-          <entry key="PLAIN_TEXT" value="71" />
+          <entry key="JSP" value="3383" />
+          <entry key="Markdown" value="161" />
+          <entry key="PLAIN_TEXT" value="74" />
           <entry key="XML" value="550" />
         </counts>
       </usages-collector>
@@ -102,37 +94,49 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/day12/params/params.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <entry file="file://$PROJECT_DIR$/src/day13/day13笔记.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret column="8" selection-start-column="8" selection-end-column="8" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/day12/header/headers.jsp">
+        <entry file="file://$PROJECT_DIR$/web/day13/jstlTest1.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            <state relative-caret-position="527">
+              <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/day12/cookies/cookies.jsp">
+        <entry file="file://$PROJECT_DIR$/web/day13/jstlTest2.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            <state relative-caret-position="571">
+              <caret line="54" column="19" lean-forward="true" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/day13/jstlTest3.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/day12/fn/a.jsp">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+            <state relative-caret-position="204">
+              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -140,21 +144,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/day12/ELFunction/Myfunction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="e#79#80#0" expanded="true" />
-                <element signature="e#103#104#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="85">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/tlds/myfunction.tld">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -163,7 +163,7 @@
         <entry file="file://$PROJECT_DIR$/web/day12/fn/selfElFunctionTest.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -172,7 +172,7 @@
         <entry file="file://$PROJECT_DIR$/src/day12/day12笔记.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1254">
+              <first_editor relative-caret-position="4216">
                 <caret line="248" selection-start-line="248" selection-end-line="248" />
               </first_editor>
               <second_editor />
@@ -212,10 +212,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/referer.html" />
-        <option value="$PROJECT_DIR$/src/day10/RequestServletLearn/RequestParam.java" />
-        <option value="$PROJECT_DIR$/src/day10/RequestServletLearn/TransmitTwo.java" />
-        <option value="$PROJECT_DIR$/src/day10/day10笔记.md" />
         <option value="$PROJECT_DIR$/web/hello/Encoding.html" />
         <option value="$PROJECT_DIR$/web/hello/RequestParam.html" />
         <option value="$PROJECT_DIR$/src/day10/RequestServletLearn/ResponseEncoding.java" />
@@ -259,10 +255,14 @@
         <option value="$PROJECT_DIR$/web/day12/pageContext/page.jsp" />
         <option value="$PROJECT_DIR$/web/day12/header/headers.jsp" />
         <option value="$PROJECT_DIR$/web/day12/cookies/cookies.jsp" />
-        <option value="$PROJECT_DIR$/web/day12/fn/a.jsp" />
         <option value="$PROJECT_DIR$/src/day12/ELFunction/Myfunction.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/tlds/myfunction.tld" />
         <option value="$PROJECT_DIR$/web/day12/fn/selfElFunctionTest.jsp" />
+        <option value="$PROJECT_DIR$/web/day12/fn/a.jsp" />
+        <option value="$PROJECT_DIR$/src/day13/day13笔记.md" />
+        <option value="$PROJECT_DIR$/web/day13/jstlTest1.jsp" />
+        <option value="$PROJECT_DIR$/web/day13/jstlTest2.jsp" />
+        <option value="$PROJECT_DIR$/web/day13/jstlTest3.jsp" />
       </list>
     </option>
   </component>
@@ -299,7 +299,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -315,39 +314,13 @@
             <path>
               <item name="JavaWeb" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="day12" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaWeb" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaWeb" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaWeb" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="day12" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="day12" type="462c0819:PsiDirectoryNode" />
-              <item name="fn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="tlds" type="462c0819:PsiDirectoryNode" />
+              <item name="day13" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaWeb" type="b2602c69:ProjectViewProjectNode" />
@@ -357,6 +330,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -364,7 +338,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1615562890747" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1615909327760" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="E:/java-api中文版/jarPackage/jakarta-taglibs-standard-1.1.2/jakarta-taglibs-standard-1.1.2/lib/standard.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -397,7 +371,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.selfElFunctionTest.jsp (2)">
+  <component name="RunManager" selected="Tomcat Server.jstlTest3.jsp">
     <configuration name="Tomcat 9.0.12" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
         <artifact name="web:war exploded">
@@ -436,8 +410,8 @@
         </option>
       </method>
     </configuration>
-    <configuration name="a.jsp (1)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:80/day12/fn/a.jsp" />
+    <configuration name="jstlTest1.jsp (2)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:80/day13/jstlTest1.jsp" />
       <deployment>
         <artifact name="web:war exploded">
           <settings>
@@ -446,7 +420,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="a_jsp_(1)_JavaWeb" />
+        <option name="BASE_DIRECTORY_NAME" value="jstlTest1_jsp_(2)_JavaWeb" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -475,8 +449,8 @@
         </option>
       </method>
     </configuration>
-    <configuration name="a.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:80/day12/fn/a.jsp" />
+    <configuration name="jstlTest2.jsp (1)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:80/day13/jstlTest2.jsp" />
       <deployment>
         <artifact name="web:war exploded">
           <settings>
@@ -485,7 +459,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="a_jsp_JavaWeb_2" />
+        <option name="BASE_DIRECTORY_NAME" value="jstlTest2_jsp_(1)_JavaWeb" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -514,8 +488,8 @@
         </option>
       </method>
     </configuration>
-    <configuration name="selfElFunctionTest.jsp (1)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:80/day12/fn/selfElFunctionTest.jsp" />
+    <configuration name="jstlTest2.jsp (2)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:80/day13/jstlTest2.jsp" />
       <deployment>
         <artifact name="web:war exploded">
           <settings>
@@ -524,7 +498,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="selfElFunctionTest_jsp_(1)_JavaWeb" />
+        <option name="BASE_DIRECTORY_NAME" value="jstlTest2_jsp_(2)_JavaWeb" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -553,8 +527,8 @@
         </option>
       </method>
     </configuration>
-    <configuration name="selfElFunctionTest.jsp (2)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:80/day12/fn/selfElFunctionTest.jsp" />
+    <configuration name="jstlTest2.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:80/day13/jstlTest2.jsp" />
       <deployment>
         <artifact name="web:war exploded">
           <settings>
@@ -563,7 +537,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="selfElFunctionTest_jsp_(2)_JavaWeb" />
+        <option name="BASE_DIRECTORY_NAME" value="jstlTest2_jsp_JavaWeb" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -592,8 +566,8 @@
         </option>
       </method>
     </configuration>
-    <configuration name="selfElFunctionTest.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:80/day12/fn/selfElFunctionTest.jsp" />
+    <configuration name="jstlTest3.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:80/day13/jstlTest3.jsp" />
       <deployment>
         <artifact name="web:war exploded">
           <settings>
@@ -602,7 +576,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="selfElFunctionTest_jsp_JavaWeb" />
+        <option name="BASE_DIRECTORY_NAME" value="jstlTest3_jsp_JavaWeb" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -633,19 +607,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.Tomcat 9.0.12" />
-      <item itemvalue="Tomcat Server.a.jsp" />
-      <item itemvalue="Tomcat Server.a.jsp (1)" />
-      <item itemvalue="Tomcat Server.selfElFunctionTest.jsp" />
-      <item itemvalue="Tomcat Server.selfElFunctionTest.jsp (1)" />
-      <item itemvalue="Tomcat Server.selfElFunctionTest.jsp (2)" />
+      <item itemvalue="Tomcat Server.jstlTest1.jsp (2)" />
+      <item itemvalue="Tomcat Server.jstlTest2.jsp" />
+      <item itemvalue="Tomcat Server.jstlTest2.jsp (1)" />
+      <item itemvalue="Tomcat Server.jstlTest2.jsp (2)" />
+      <item itemvalue="Tomcat Server.jstlTest3.jsp" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Tomcat Server.selfElFunctionTest.jsp (2)" />
-        <item itemvalue="Tomcat Server.selfElFunctionTest.jsp (1)" />
-        <item itemvalue="Tomcat Server.selfElFunctionTest.jsp" />
-        <item itemvalue="Tomcat Server.a.jsp (1)" />
-        <item itemvalue="Tomcat Server.a.jsp" />
+        <item itemvalue="Tomcat Server.jstlTest3.jsp" />
+        <item itemvalue="Tomcat Server.jstlTest2.jsp (2)" />
+        <item itemvalue="Tomcat Server.jstlTest2.jsp (1)" />
+        <item itemvalue="Tomcat Server.jstlTest2.jsp" />
+        <item itemvalue="Tomcat Server.jstlTest1.jsp (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -688,7 +662,10 @@
       <workItem from="1615471041827" duration="5843000" />
       <workItem from="1615553955409" duration="1427000" />
       <workItem from="1615559458991" duration="194000" />
-      <workItem from="1615559676188" duration="3051000" />
+      <workItem from="1615559676188" duration="5199000" />
+      <workItem from="1615729919365" duration="1321000" />
+      <workItem from="1615736261322" duration="1959000" />
+      <workItem from="1615901858140" duration="5569000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1612107454274</created>
@@ -760,7 +737,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615305433328</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="EL">
+      <created>1615562901542</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1615562901543</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -796,7 +780,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127890000" />
+    <option name="totallyTimeSpent" value="138887000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -811,7 +795,7 @@
     <frame x="2552" y="234" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49702382" visible="true" weight="0.33742005" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49702382" visible="true" weight="0.34861407" />
       <window_info id="Structure" order="1" sideWeight="0.5029762" side_tool="true" weight="0.28997868" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -887,44 +871,14 @@
     <MESSAGE value="test" />
     <MESSAGE value="Servlet" />
     <MESSAGE value="UUid" />
-    <option name="LAST_COMMIT_MESSAGE" value="UUid" />
+    <MESSAGE value="EL" />
+    <option name="LAST_COMMIT_MESSAGE" value="EL" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/day10/day10笔记.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="394">
-            <caret line="350" column="60" selection-start-line="350" selection-start-column="40" selection-end-line="350" selection-end-column="60" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day10/RequestServletLearn/RequestParam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day10/RequestServletLearn/RequestServletLearn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="44" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day10/RequestServletLearn/TransmitTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/hello/RequestParam.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -957,13 +911,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -1211,26 +1158,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/day12/fn/a.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        <state relative-caret-position="136">
+          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day13/day13笔记.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="8" selection-start-column="8" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/day12/ELFunction/Myfunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#79#80#0" expanded="true" />
-            <element signature="e#103#104#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tlds/myfunction.tld">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/day12/fn/selfElFunctionTest.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/day12/day12笔记.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1254">
+          <first_editor relative-caret-position="4216">
             <caret line="248" selection-start-line="248" selection-end-line="248" />
           </first_editor>
           <second_editor />
@@ -1244,17 +1218,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/day12/fn/selfElFunctionTest.jsp">
+    <entry file="file://$PROJECT_DIR$/web/day13/jstlTest1.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        <state relative-caret-position="527">
+          <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tlds/myfunction.tld">
+    <entry file="file://$PROJECT_DIR$/web/day13/jstlTest2.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="571">
+          <caret line="54" column="19" lean-forward="true" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/day13/jstlTest3.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
         </state>
       </provider>
     </entry>
