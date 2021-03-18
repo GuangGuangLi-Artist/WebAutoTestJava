@@ -23,5 +23,6 @@
 %>
 <fmt:formatNumber value="${num1}" pattern="0.000"></fmt:formatNumber>
 <fmt:formatNumber value="${num1}" pattern="#.###"></fmt:formatNumber>
+
 </body>
 </html>

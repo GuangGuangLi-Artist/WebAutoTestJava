@@ -5,16 +5,16 @@
         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
         version="2.0">
 
-    <description>MyfuntionTest</description>
-    <display-name>my-function</display-name>
-    <tlib-version>1.0</tlib-version>
-    <short-name>myfun</short-name>
-    <uri>http://www.guangguanghome.cn/el/functions</uri>
+<description>MyfuntionTest</description>
+<display-name>my-function</display-name>
+<tlib-version>1.0</tlib-version>
+<short-name>myfun</short-name>
+<uri>http://www.guangguanghome.cn/el/functions</uri>
 
-    <function>
-        <name>myfun</name>
-        <function-class>day12.ELFunction.Myfunction</function-class>
-        <function-signature>java.lang.String myfunction()</function-signature>
-    </function>
+<function>
+    <name>myfun</name>
+    <function-class>day12.ELFunction.Myfunction</function-class>
+    <function-signature>java.lang.String myfunction()</function-signature>
+</function>
 
 </taglib>
