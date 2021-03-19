@@ -13,8 +13,24 @@
     <title>Title</title>
 </head>
 <body>
+<it:CustomizeJspTag5 test="${empty param.xxx}">
+<h1>
+    <it:CustomizeJspTag4/>
+</h1>
+</it:CustomizeJspTag5>
 <h1><it:CustomizeJspTag/></h1>
 <hr>
 <h1><it:CustomizeJspTag2/></h1>
+<hr>
+<%
+    request.setAttribute("xxx","zhangsan");
+%>
+<h3>
+    <it:CustomizeJspTag3>${xxx}</it:CustomizeJspTag3>
+</h3>
+<hr>
+<h3>
+    <it:CustomizeJspTag3>我是张三的大哥</it:CustomizeJspTag3>
+</h3>
 </body>
 </html>

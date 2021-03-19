@@ -19,4 +19,27 @@
         <tag-class>day13.CustomizeJspTag.CustomizeJspTag2</tag-class>
         <body-content>empty</body-content>
     </tag>
+
+    <tag>
+        <name>CustomizeJspTag3</name>
+        <tag-class>day13.CustomizeJspTag.CustomizeJspTag3</tag-class>
+        <body-content>scriptless</body-content>
+    </tag>
+
+    <tag>
+        <name>CustomizeJspTag4</name>
+        <tag-class>day13.CustomizeJspTag.CustomizeJspTag4</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+
+    <tag>
+        <name>CustomizeJspTag5</name>
+        <tag-class>day13.CustomizeJspTag.CustomizeJspTag5</tag-class>
+        <body-content>scriptless</body-content>
+        <attribute>
+            <name>test</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
 </taglib>
