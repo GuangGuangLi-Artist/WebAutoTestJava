@@ -298,9 +298,9 @@
     1. 什么是MVC
     　　MVC模式（Model-View-Controller）是软件工程中的一种软件架构模式，把软件系统分为三个基本部分：模型（Model）、视图（View）和控制器（Controller）。
     
-    * 控制器Controller：对请求进行处理，负责请求转发；
-    * 视图View：界面设计人员进行图形界面设计；
-    * 模型Model：程序编写程序应用的功能（实现算法等等）、数据库管理；
+    * 控制器Controller：对请求进行处理，负责请求转发；(Servlet)
+    * 视图View：界面设计人员进行图形界面设计；(JSP)
+    * 模型Model：程序编写程序应用的功能（实现算法等等）、数据库管理；(JavaBean)
     
     2. Java与MVC
     
