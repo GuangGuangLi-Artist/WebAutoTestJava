@@ -75,8 +75,19 @@ public class JDBCLearn1 {
             statement = connection.createStatement();
             String sql = "select  * from tbl_authors";
             resultSet = statement.executeQuery(sql);
-            while (resultSet.next()){
-                System.out.println(resultSet.getInt("id") + "," + resultSet.getString("name") + "," + resultSet.getString("email"));
+//            while (resultSet.next()){
+//                System.out.println(resultSet.getInt("id") + "," + resultSet.getString("name") + "," + resultSet.getString("email"));
+//            }
+            int count = resultSet.getMetaData().getColumnCount();
+            while (resultSet.next()){//遍历行
+                for (int i = 1; i <=count ; i++) {//遍历列
+                    System.out.print(resultSet.getString(i));
+                    if(i<count){
+                        System.out.print(", ");
+                    }
+
+                }
+                System.out.println();
             }
         }
         catch (Exception e){
