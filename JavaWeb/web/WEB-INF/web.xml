@@ -202,6 +202,23 @@
         <servlet-name>UserServlet</servlet-name>
         <url-pattern>/UserServlet</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>LoginServlet14</servlet-name>
+        <servlet-class>day14.cn.itcast.user.web.servlet.LoginServlet14</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet14</servlet-name>
+        <url-pattern>/LoginServlet14</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RegisterServlet14</servlet-name>
+        <servlet-class>day14.cn.itcast.user.web.servlet.RegisterServlet14</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegisterServlet14</servlet-name>
+        <url-pattern>/RegisterServlet14</url-pattern>
+    </servlet-mapping>
 
     <context-param>
         <param-name>xxx</param-name>
