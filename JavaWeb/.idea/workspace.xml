@@ -7,17 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4207979-883a-4ee3-a0fa-a012de81bd01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day14/cn/itcast/user/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day14/cn/itcast/user/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day14/cn/itcast/user/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day14/cn/itcast/user/web/servlet/LoginServlet14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day14/cn/itcast/user/web/servlet/RegisterServlet14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day14/users.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/day14/user/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/day14/user/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/day14/user/welcome.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day14/test/dao/UserDaoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day14/cn/itcast/user/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day14/cn/itcast/user/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day14/users.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/day14/users.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,10 +23,10 @@
     <session id="1097621376">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="51" />
+          <entry key="project.closed" value="52" />
           <entry key="project.open.time.10" value="11" />
           <entry key="project.open.time.11" value="6" />
-          <entry key="project.open.time.12" value="11" />
+          <entry key="project.open.time.12" value="12" />
           <entry key="project.open.time.13" value="6" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="2" />
@@ -44,7 +37,7 @@
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="6" />
-          <entry key="project.opened" value="52" />
+          <entry key="project.opened" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -54,26 +47,26 @@
           <entry key="class" value="4" />
           <entry key="customizeTag" value="2" />
           <entry key="html" value="11" />
-          <entry key="java" value="96" />
+          <entry key="java" value="101" />
           <entry key="jsp" value="56" />
           <entry key="md" value="25" />
           <entry key="properties" value="2" />
           <entry key="tld" value="9" />
           <entry key="txt" value="3" />
-          <entry key="xml" value="23" />
+          <entry key="xml" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="4" />
           <entry key="HTML" value="11" />
-          <entry key="JAVA" value="96" />
+          <entry key="JAVA" value="101" />
           <entry key="JSP" value="58" />
           <entry key="Markdown" value="25" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="Properties" value="2" />
           <entry key="SPI" value="1" />
-          <entry key="XML" value="30" />
+          <entry key="XML" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -81,7 +74,7 @@
           <entry key="JspBase1" value="208" />
           <entry key="dummy" value="10" />
           <entry key="html" value="443" />
-          <entry key="java" value="11562" />
+          <entry key="java" value="12559" />
           <entry key="jsp" value="3550" />
           <entry key="md" value="496" />
           <entry key="properties" value="89" />
@@ -93,7 +86,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="443" />
-          <entry key="JAVA" value="11562" />
+          <entry key="JAVA" value="12559" />
           <entry key="JSP" value="3758" />
           <entry key="Markdown" value="496" />
           <entry key="PLAIN_TEXT" value="196" />
@@ -104,16 +97,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/day14/user/register.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/day14/cn/itcast/user/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -124,36 +108,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/day13/day13笔记.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="148">
-                <caret line="297" column="13" lean-forward="true" selection-start-line="297" selection-start-column="13" selection-end-line="297" selection-end-column="13" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/day13/MVCView/show.jsp">
+        <entry file="file://$PROJECT_DIR$/src/day14/cn/itcast/user/web/servlet/LoginServlet14.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/referer.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/tlds/customize.tld">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+            <state relative-caret-position="238">
+              <caret line="14" column="25" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -167,11 +128,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/day14/cn/itcast/user/web/servlet/RegisterServlet14.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="52" lean-forward="true" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -180,9 +141,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/day14/cn/itcast/user/dao/UserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="35" column="43" lean-forward="true" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/day14/cn/itcast/user/domain/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#464#465#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/day14/test/dao/UserDaoTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/day14/users.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
+            <state relative-caret-position="3706">
               <caret line="218" column="39" selection-start-line="218" selection-start-column="22" selection-end-line="218" selection-end-column="39" />
             </state>
           </provider>
@@ -220,7 +227,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/day12/ELLearn/Address.java" />
         <option value="$PROJECT_DIR$/src/day12/ELLearn/Employee.java" />
         <option value="$PROJECT_DIR$/web/day12/ELLearn/ELtext2.jsp" />
         <option value="$PROJECT_DIR$/web/day12/params.jsp" />
@@ -262,15 +268,16 @@
         <option value="$PROJECT_DIR$/src/day17/JdbcLearn/JdbcUtils.java" />
         <option value="$PROJECT_DIR$/src/day17/JdbcLearn/JdbcUtilsTest.java" />
         <option value="$PROJECT_DIR$/src/day14/cn/itcast/user/domain/User.java" />
-        <option value="$PROJECT_DIR$/src/day14/cn/itcast/user/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/day14/cn/itcast/user/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/day14/cn/itcast/user/web/servlet/LoginServlet.java" />
         <option value="$PROJECT_DIR$/web/day14/user/welcome.jsp" />
         <option value="$PROJECT_DIR$/web/day14/user/login.jsp" />
-        <option value="$PROJECT_DIR$/src/day14/users.xml" />
         <option value="$PROJECT_DIR$/src/day14/cn/itcast/user/web/servlet/RegisterServlet.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/day14/user/register.jsp" />
+        <option value="$PROJECT_DIR$/src/day14/test/dao/UserDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/day14/users.xml" />
+        <option value="$PROJECT_DIR$/src/day14/cn/itcast/user/dao/UserDao.java" />
       </list>
     </option>
   </component>
@@ -308,6 +315,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -358,6 +367,26 @@
               <item name="cn" type="462c0819:PsiDirectoryNode" />
               <item name="itcast" type="462c0819:PsiDirectoryNode" />
               <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="day14" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="itcast" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="day14" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="itcast" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -381,19 +410,32 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="servlet" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="day14" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="day14" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1618240447348" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1618328087642" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="E:/java-api中文版/jarPackage/mysql-connector-java-8.0.11.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -427,32 +469,48 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.register.jsp (2)">
-    <configuration name="JdbcUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UserDaoTest.testFindByUsername">
+    <configuration name="UserDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaWeb" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day17.JdbcLearn.*" />
+          <option name="PATTERN" value="day14.test.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day17.JdbcLearn" />
-      <option name="MAIN_CLASS_NAME" value="day17.JdbcLearn.JdbcUtilsTest" />
+      <option name="PACKAGE_NAME" value="day14.test.dao" />
+      <option name="MAIN_CLASS_NAME" value="day14.test.dao.UserDaoTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PreparedStatementLearn.fun2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserDaoTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaWeb" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day17.JdbcLearn.*" />
+          <option name="PATTERN" value="day14.test.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day17.JdbcLearn" />
-      <option name="MAIN_CLASS_NAME" value="day17.JdbcLearn.PreparedStatementLearn" />
-      <option name="METHOD_NAME" value="fun2" />
+      <option name="PACKAGE_NAME" value="day14.test.dao" />
+      <option name="MAIN_CLASS_NAME" value="day14.test.dao.UserDaoTest" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDaoTest.testFindByUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaWeb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day14.test.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day14.test.dao" />
+      <option name="MAIN_CLASS_NAME" value="day14.test.dao.UserDaoTest" />
+      <option name="METHOD_NAME" value="testFindByUsername" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -574,60 +632,21 @@
         </option>
       </method>
     </configuration>
-    <configuration name="register.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:80/day14/user/register.jsp" />
-      <deployment>
-        <artifact name="web:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="register_jsp_JavaWeb" />
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="web:war exploded" />
-        </option>
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Tomcat Server.Tomcat 9.0.12" />
-      <item itemvalue="JUnit.PreparedStatementLearn.fun2" />
-      <item itemvalue="JUnit.JdbcUtilsTest" />
-      <item itemvalue="Tomcat Server.register.jsp" />
       <item itemvalue="Tomcat Server.register.jsp (1)" />
       <item itemvalue="Tomcat Server.register.jsp (2)" />
+      <item itemvalue="JUnit.UserDaoTest.testAdd" />
+      <item itemvalue="JUnit.UserDaoTest.testFindByUsername" />
+      <item itemvalue="JUnit.UserDaoTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserDaoTest.testFindByUsername" />
+        <item itemvalue="JUnit.UserDaoTest.testAdd" />
+        <item itemvalue="JUnit.UserDaoTest" />
         <item itemvalue="Tomcat Server.register.jsp (2)" />
         <item itemvalue="Tomcat Server.register.jsp (1)" />
-        <item itemvalue="Tomcat Server.register.jsp" />
-        <item itemvalue="JUnit.JdbcUtilsTest" />
-        <item itemvalue="JUnit.PreparedStatementLearn.fun2" />
       </list>
     </recent_temporary>
   </component>
@@ -692,7 +711,8 @@
       <workItem from="1617632096281" duration="594000" />
       <workItem from="1617716510900" duration="596000" />
       <workItem from="1617799411443" duration="1031000" />
-      <workItem from="1618234671418" duration="5945000" />
+      <workItem from="1618234671418" duration="5991000" />
+      <workItem from="1618322024267" duration="4598000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1612107454274</created>
@@ -806,43 +826,50 @@
       <option name="project" value="LOCAL" />
       <updated>1617205780811</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="JDBC">
+      <created>1618242631044</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1618242631044</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PreparedStatementLearn - 2021.03.30 at 23h 48m 42s.xml">
-      <configuration name="PreparedStatementLearn" configurationId="JUnit" />
+    <history-entry file="UserDaoTest_testAdd - 2021.04.13 at 23h 21m 14s.xml">
+      <configuration name="UserDaoTest.testAdd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PreparedStatementLearn - 2021.03.30 at 23h 49m 41s.xml">
-      <configuration name="PreparedStatementLearn" configurationId="JUnit" />
+    <history-entry file="UserDaoTest_testFindByUsername - 2021.04.13 at 23h 22m 27s.xml">
+      <configuration name="UserDaoTest.testFindByUsername" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PreparedStatementLearn_fun1 - 2021.03.30 at 23h 50m 17s.xml">
-      <configuration name="PreparedStatementLearn.fun1" configurationId="JUnit" />
+    <history-entry file="UserDaoTest_testFindByUsername - 2021.04.13 at 23h 24m 33s.xml">
+      <configuration name="UserDaoTest.testFindByUsername" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PreparedStatementLearn - 2021.03.31 at 00h 00m 26s.xml">
-      <configuration name="PreparedStatementLearn" configurationId="JUnit" />
+    <history-entry file="UserDaoTest - 2021.04.13 at 23h 25m 05s.xml">
+      <configuration name="UserDaoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PreparedStatementLearn_fun2 - 2021.03.31 at 00h 00m 42s.xml">
-      <configuration name="PreparedStatementLearn.fun2" configurationId="JUnit" />
+    <history-entry file="UserDaoTest_testAdd - 2021.04.13 at 23h 29m 20s.xml">
+      <configuration name="UserDaoTest.testAdd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PreparedStatementLearn_fun2 - 2021.03.31 at 00h 01m 24s.xml">
-      <configuration name="PreparedStatementLearn.fun2" configurationId="JUnit" />
+    <history-entry file="UserDaoTest_testFindByUsername - 2021.04.13 at 23h 29m 25s.xml">
+      <configuration name="UserDaoTest.testFindByUsername" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PreparedStatementLearn_fun2 - 2021.03.31 at 00h 02m 51s.xml">
-      <configuration name="PreparedStatementLearn.fun2" configurationId="JUnit" />
+    <history-entry file="UserDaoTest_testFindByUsername - 2021.04.13 at 23h 29m 46s.xml">
+      <configuration name="UserDaoTest.testFindByUsername" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PreparedStatementLearn - 2021.03.31 at 00h 04m 41s.xml">
-      <configuration name="PreparedStatementLearn" configurationId="JUnit" />
+    <history-entry file="UserDaoTest_testFindByUsername - 2021.04.13 at 23h 30m 48s.xml">
+      <configuration name="UserDaoTest.testFindByUsername" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PreparedStatementLearn_fun2 - 2021.03.31 at 00h 05m 06s.xml">
-      <configuration name="PreparedStatementLearn.fun2" configurationId="JUnit" />
+    <history-entry file="UserDaoTest_testFindByUsername - 2021.04.13 at 23h 34m 19s.xml">
+      <configuration name="UserDaoTest.testFindByUsername" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JdbcUtilsTest - 2021.03.31 at 22h 54m 49s.xml">
-      <configuration name="JdbcUtilsTest" configurationId="JUnit" />
+    <history-entry file="UserDaoTest_testFindByUsername - 2021.04.13 at 23h 34m 44s.xml">
+      <configuration name="UserDaoTest.testFindByUsername" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191297000" />
+    <option name="totallyTimeSpent" value="195941000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -855,8 +882,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="234" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49702382" visible="true" weight="0.23667377" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49702382" visible="true" weight="0.23933902" />
       <window_info id="Structure" order="1" sideWeight="0.5029762" side_tool="true" weight="0.28997868" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -908,13 +936,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/day12/fn/a.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/day13/jstlTest2.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
@@ -1139,47 +1160,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/day14/cn/itcast/user/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-          <folding>
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#619#620#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day14/cn/itcast/user/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="103" selection-start-line="6" selection-start-column="103" selection-end-line="6" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/day14/user/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day14/cn/itcast/user/web/servlet/LoginServlet14.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1190,55 +1174,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/day14/users.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/day14/user/welcome.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="218" column="39" selection-start-line="218" selection-start-column="22" selection-end-line="218" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/day13/MVCView/show.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/referer.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tlds/customize.tld">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/day13/jstlTest1.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1252,10 +1191,55 @@
     <entry file="file://$PROJECT_DIR$/src/day13/day13笔记.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="148">
-            <caret line="297" column="13" lean-forward="true" selection-start-line="297" selection-start-column="13" selection-end-line="297" selection-end-column="13" />
+          <first_editor relative-caret-position="5049">
+            <caret line="297" column="13" selection-start-line="297" selection-start-column="13" selection-end-line="297" selection-end-column="13" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/day13/MVCView/show.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/referer.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tlds/customize.tld">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3706">
+          <caret line="218" column="39" selection-start-line="218" selection-start-column="22" selection-end-line="218" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/day13/jstlTest1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day14/users.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -1266,10 +1250,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/day14/cn/itcast/user/web/servlet/LoginServlet14.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day14/cn/itcast/user/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/day14/cn/itcast/user/web/servlet/RegisterServlet14.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="52" lean-forward="true" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day14/cn/itcast/user/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="35" column="43" lean-forward="true" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day14/test/dao/UserDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
