@@ -1,6 +1,6 @@
 package day14.cn.itcast.user.web.servlet;
 
-import day14.cn.itcast.user.service.UserService;
+import day14.cn.itcast.user.service.UserService14;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -21,7 +21,7 @@ public class LoginServlet14 extends HttpServlet {
         resp.setContentType("text/html;charset=utf-8");//响应编码
 
         //依赖UserService
-        UserService userService = new UserService();
+        UserService14 userService = new UserService14();
 
 
     }

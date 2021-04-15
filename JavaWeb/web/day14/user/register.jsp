@@ -13,6 +13,7 @@
 </head>
 <body>
 <h1>注册</h1>
+<p style="color: red; font-weight: 900 ">${msg}</p>
 <%--${pageContext.request.contextPath}/RegisterServlet14--%>
 <form action="<c:url value='/RegisterServlet14'></c:url> " method="post">
     用户名:<input type="text" name="username"><br>
