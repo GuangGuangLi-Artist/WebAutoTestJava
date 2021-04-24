@@ -1,9 +1,9 @@
-package day14.cn.itcast.user.web.servlet;
+package day17.cn.itcast.usermng.web.servlet;
 
 import day12.JavaBeanLearn.domain.CommonUtils;
-import day14.cn.itcast.user.domain.User;
-import day14.cn.itcast.user.service.UserException;
-import day14.cn.itcast.user.service.UserService14;
+import day17.cn.itcast.usermng.domain.User;
+import day17.cn.itcast.usermng.service.UserException;
+import day17.cn.itcast.usermng.service.UserService14;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -15,7 +15,7 @@ import java.io.IOException;
  * UserServlet层
  */
 
-public class LoginServlet14 extends HttpServlet {
+public class LoginServlet17 extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -26,16 +26,16 @@ public class LoginServlet14 extends HttpServlet {
         //依赖UserService
         UserService14 userService = new UserService14() ;
 
-        User form = CommonUtils.toBean(req.getParameterMap(),User.class);
+        User form = CommonUtils.toBean(req.getParameterMap(), User.class);
 
         try {
             User user = userService.login(form);
             req.getSession().setAttribute("sessionUser",user);
-            resp.sendRedirect(req.getContextPath() + "/day14/usermng/welcome.jsp");
+            resp.sendRedirect(req.getContextPath() + "/day17/usermng/welcome.jsp");
         } catch (UserException e) {
             req.setAttribute("msg",e.getMessage());
             req.setAttribute("usermng",form);
-            req.getRequestDispatcher("/day14/usermng/login.jsp").forward(req,resp);
+            req.getRequestDispatcher("/day17/usermng/login.jsp").forward(req,resp);
         }
 
 

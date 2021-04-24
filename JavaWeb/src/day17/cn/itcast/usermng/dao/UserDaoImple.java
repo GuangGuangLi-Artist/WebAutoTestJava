@@ -1,6 +1,6 @@
-package day14.cn.itcast.user.dao;
+package day17.cn.itcast.usermng.dao;
 
-import day14.cn.itcast.user.domain.User;
+import day17.cn.itcast.usermng.domain.User;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.Element;
@@ -8,12 +8,13 @@ import org.dom4j.io.OutputFormat;
 import org.dom4j.io.SAXReader;
 import org.dom4j.io.XMLWriter;
 
-import java.io.*;
+import java.io.FileOutputStream;
+import java.io.OutputStreamWriter;
 
 /**
  * 数据类
  */
-public class UserDao {
+public class UserDaoImple implements UserDao {
     private String path = "E:\\ideaworkspace\\WebAutoTestJava\\JavaWeb\\src\\day14\\users.xml";//依赖数据文件
 
     public User findByUsername(String username){

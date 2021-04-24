@@ -220,6 +220,24 @@
         <url-pattern>/RegisterServlet14</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>LoginServlet17</servlet-name>
+        <servlet-class>day17.cn.itcast.usermng.web.servlet.LoginServlet17</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet17</servlet-name>
+        <url-pattern>/LoginServlet17</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RegisterServlet17</servlet-name>
+        <servlet-class>day17.cn.itcast.usermng.web.servlet.RegisterServlet17</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegisterServlet17</servlet-name>
+        <url-pattern>/RegisterServlet17</url-pattern>
+    </servlet-mapping>
+
     <context-param>
         <param-name>xxx</param-name>
         <param-value>Eljsp</param-value>

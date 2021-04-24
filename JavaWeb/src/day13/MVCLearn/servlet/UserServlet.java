@@ -20,7 +20,7 @@ public class UserServlet extends HttpServlet {
         UserService userService = new UserService();
         User user = userService.find();
 
-        req.setAttribute("user",user);
+        req.setAttribute("usermng",user);
 
         req.getRequestDispatcher("/day13/MVCView/show.jsp").forward(req,resp);
     }

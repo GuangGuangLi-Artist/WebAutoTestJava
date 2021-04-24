@@ -2,4 +2,6 @@
 
 <users>
 	<user username="李四" password="456"/>
+	<user username="dd" password="dd"/>
+	<user username="sdas" password="sdfasd"/>
 </users>

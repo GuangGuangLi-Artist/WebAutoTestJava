@@ -15,7 +15,7 @@
 <h1>注册</h1>
 <p style="color: red; font-weight: 900 ">${msg}</p>
 <%--${pageContext.request.contextPath}/RegisterServlet17--%>
-<form action="<c:url value='/RegisterServlet14'></c:url> " method="post">
+<form action="<c:url value='/RegisterServlet17'></c:url> " method="post">
     用户名:<input type="text" name="username" value="${user.username}">${errors.username}<br>
     密  码:<input type="password" name="password" value="${user.password}">${errors.password}<br>
     <input type="submit" value="注册">

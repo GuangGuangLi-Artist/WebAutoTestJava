@@ -1,9 +1,9 @@
-package day14.cn.itcast.user.web.servlet;
+package day17.cn.itcast.usermng.web.servlet;
 
 import day12.JavaBeanLearn.domain.CommonUtils;
-import day14.cn.itcast.user.domain.User;
-import day14.cn.itcast.user.service.UserException;
-import day14.cn.itcast.user.service.UserService14;
+import day17.cn.itcast.usermng.domain.User;
+import day17.cn.itcast.usermng.service.UserException;
+import day17.cn.itcast.usermng.service.UserService14;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -13,7 +13,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-public class RegisterServlet14 extends HttpServlet {
+public class RegisterServlet17 extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         //super.doPost(req, resp);
@@ -36,7 +36,7 @@ public class RegisterServlet14 extends HttpServlet {
          *
          */
 
-        User form = CommonUtils.toBean(req.getParameterMap(),User.class);
+        User form = CommonUtils.toBean(req.getParameterMap(), User.class);
 
         /**
          * 添加新任务（表单校验）
@@ -70,19 +70,19 @@ public class RegisterServlet14 extends HttpServlet {
         if(errors != null && errors.size() > 0){
             req.setAttribute("errors",errors);
             req.setAttribute("usermng",form);
-            req.getRequestDispatcher("/day14/usermng/register.jsp").forward(req,resp);
+            req.getRequestDispatcher("/day17/usermng/register.jsp").forward(req,resp);
             return;
         }
 
         try {
             userService.register(form);
-            resp.getWriter().print("<h1>注册成功</h1><a href='" + req.getContextPath() +"/day14/usermng/login.jsp" + "'>点击这里去登录</a>");
+            resp.getWriter().print("<h1>注册成功</h1><a href='" + req.getContextPath() +"/day17/usermng/login.jsp" + "'>点击这里去登录</a>");
         } catch (UserException e) {
             //获取异常，保存到request域
             req.setAttribute("msg",e.getMessage());
             req.setAttribute("usermng",form);//用来在表单中回显
             //转发到register.jsp
-            req.getRequestDispatcher("/day14/usermng/register.jsp").forward(req,resp);
+            req.getRequestDispatcher("/day17/usermng/register.jsp").forward(req,resp);
         }
     }
 }
