@@ -57,7 +57,30 @@ public class RegisterServlet17 extends HttpServlet {
             errors.put("password","密码长度必须在3-15之间");
         }
 
-        String  sessionVerifyCode = (String) req.getSession().getAttribute("session_vcode");
+        //校验确认密码
+        String repassword = form.getPassword();
+        if(repassword == null || repassword.trim().isEmpty()){
+            errors.put("password", "密码不能为空！");
+        }else if(repassword.length() < 3 || repassword.length() > 15){
+            errors.put("password", "密码长度必须在3~15之间！");
+        }
+
+        //校验年龄
+        int age = form.getAge();
+        if(age<16 || age>70){
+            errors.put("age","年龄必须是16 - 70 之间");
+        }
+
+        //校验性别
+        String gender = form.getGender();
+        if(gender == null || gender.trim().isEmpty()){
+            errors.put("gender", "性别不能为空！");
+        }else if(!gender.equals("男") && !gender.equals("女")){
+            errors.put("gender", "性别只能是\"男\"或\"女\"！");
+        }
+
+
+        /*String  sessionVerifyCode = (String) req.getSession().getAttribute("session_vcode");
         String verifyCode = form.getVerifyCode();
         if(verifyCode == null || verifyCode.trim().isEmpty()){
             errors.put("verifyCode","验证码不能为空");
@@ -65,11 +88,11 @@ public class RegisterServlet17 extends HttpServlet {
             errors.put("verifyCode","验证码长度必须为4");
         }else if(!verifyCode.equalsIgnoreCase(sessionVerifyCode)){
             errors.put("verifyCode","验证码错误");
-        }
+        }*/
 
         if(errors != null && errors.size() > 0){
             req.setAttribute("errors",errors);
-            req.setAttribute("usermng",form);
+            req.setAttribute("form",form);
             req.getRequestDispatcher("/day17/usermng/register.jsp").forward(req,resp);
             return;
         }
@@ -80,7 +103,7 @@ public class RegisterServlet17 extends HttpServlet {
         } catch (UserException e) {
             //获取异常，保存到request域
             req.setAttribute("msg",e.getMessage());
-            req.setAttribute("usermng",form);//用来在表单中回显
+            req.setAttribute("form",form);//用来在表单中回显
             //转发到register.jsp
             req.getRequestDispatcher("/day17/usermng/register.jsp").forward(req,resp);
         }
