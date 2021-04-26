@@ -19,6 +19,12 @@ public class JdbcUtils {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+        //加载驱动类
+        try {
+            Class.forName(properties.getProperty("deiverClassName"));
+        } catch (ClassNotFoundException e) {
+            throw new RuntimeException(e);
+        }
     }
     //获取连接
     public static Connection getConnection() throws SQLException {
