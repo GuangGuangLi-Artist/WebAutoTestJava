@@ -237,6 +237,14 @@
         <servlet-name>RegisterServlet17</servlet-name>
         <url-pattern>/RegisterServlet17</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>JNDILearnServlet</servlet-name>
+        <servlet-class>day18.JNDILearn.JNDILearnServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>JNDILearnServlet</servlet-name>
+        <url-pattern>/JNDILearnServlet</url-pattern>
+    </servlet-mapping>
 
     <context-param>
         <param-name>xxx</param-name>
