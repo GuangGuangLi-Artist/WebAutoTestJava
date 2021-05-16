@@ -245,6 +245,39 @@
         <servlet-name>JNDILearnServlet</servlet-name>
         <url-pattern>/JNDILearnServlet</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>Day19BServlet</servlet-name>
+        <servlet-class>day19.BaseServletLearn.Day19BServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Day19BServlet</servlet-name>
+        <url-pattern>/Day19BServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Day19Aservlet</servlet-name>
+        <servlet-class>day19.BaseServletLearn.Day19Aservlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Day19Aservlet</servlet-name>
+        <url-pattern>/Day19Aservlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Day19BaseServlet</servlet-name>
+        <servlet-class>day19.BaseServletLearn.Day19BaseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Day19BaseServlet</servlet-name>
+        <url-pattern>/Day19BaseServlet/</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Day19Test</servlet-name>
+        <servlet-class>day19.BaseServletLearn.Day19Test</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Day19Test</servlet-name>
+        <url-pattern>/Day19Test</url-pattern>
+    </servlet-mapping>
 
     <context-param>
         <param-name>xxx</param-name>
