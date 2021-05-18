@@ -95,10 +95,10 @@ public class Day19JdbcUtilsUpper {
          * 判断它是不是事务专用，如果是，就不关闭！
          * 如果不是事务专用，那么就要关闭！
          */
-        Connection connection1 = threadLocal1.get();
+        Connection con = threadLocal1.get();
 
-        if(connection == null) connection.close();//如果connection==null,说明现在没有事务，那么connection一定不是事务专用的
+        if(con == null) connection.close();//如果connection==null,说明现在没有事务，那么connection一定不是事务专用的
 
-        if(connection != null) connection.close();//说明有事务，那么需要判断参数连接是否与connection相等，若不等，说明参数连接不是事务专用连接
+        if(con != connection) connection.close();//说明有事务，那么需要判断参数连接是否与connection相等，若不等，说明参数连接不是事务专用连接
     }
 }

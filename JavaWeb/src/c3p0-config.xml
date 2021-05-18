@@ -3,8 +3,8 @@
 	<!-- 这是默认配置信息 -->
 	<default-config> 
 		<!-- 连接四大参数配置 -->
-		<property name="jdbcUrl">jdbc:mysql://localhost:3306/author_book?serverTimezone=GMT</property>
-		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="jdbcUrl">jdbc:mysql://localhost:3306/author_book?serverTimezone=UTC&amp;&amp;useSSL=false&amp;&amp;rewriteBatchedStatements=true</property>
+		<property name="driverClass">com.mysql.cj.jdbc.Driver</property>
 		<property name="user">liguang</property>
 		<property name="password">123456</property>
 		<!-- 池参数配置 -->
@@ -17,7 +17,7 @@
 	<!-- 专门为oracle提供的配置信息 -->
 	<named-config name="oracle-config"> 
 		<property name="jdbcUrl">jdbc:mysql://localhost:3306/author_book?serverTimezone=GMT</property>
-		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="driverClass">com.mysql.cj.jdbc.Driver</property>
 		<property name="user">liguang</property>
 		<property name="password">123456</property>
 		<property name="acquireIncrement">3</property>
