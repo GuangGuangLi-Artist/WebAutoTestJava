@@ -278,7 +278,22 @@
         <servlet-name>Day19Test</servlet-name>
         <url-pattern>/Day19Test</url-pattern>
     </servlet-mapping>
-
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <listener>
+        <listener-class>day20.ListenerLearn.Day20Listener1</listener-class>
+    </listener>
+    <listener>
+        <listener-class>day20.ListenerLearn.Day20ContextAttributeListener1</listener-class>
+    </listener>
     <context-param>
         <param-name>xxx</param-name>
         <param-value>Eljsp</param-value>
