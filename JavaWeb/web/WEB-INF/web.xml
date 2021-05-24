@@ -278,6 +278,15 @@
         <servlet-name>Day19Test</servlet-name>
         <url-pattern>/Day19Test</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Day21ServletA1</servlet-name>
+        <servlet-class>day21.FilterLearn.Day21ServletA1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Day21ServletA1</servlet-name>
+        <url-pattern>/Day21ServletA1</url-pattern>
+    </servlet-mapping>
     
     
     
@@ -286,7 +295,15 @@
     
     
     
-    
+    <filter>
+        <filter-name>Day21FilterA1</filter-name>
+        <filter-class>day21.FilterLearn.Day21FilterA1</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>Day21FilterA1</filter-name>
+        <url-pattern>/Day21ServletA1</url-pattern>
+    </filter-mapping>
+
     
     <listener>
         <listener-class>day20.ListenerLearn.Day20Listener1</listener-class>
