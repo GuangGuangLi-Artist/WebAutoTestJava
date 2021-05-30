@@ -1,0 +1,48 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JavaWeb:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaWeb_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="JavaWeb/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JavaWeb" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="JavaWeb" />
+          <element id="file-copy" path="D:/SoftWare/eclipse/tomcat/lib/el-api.jar" />
+          <element id="file-copy" path="D:/SoftWare/eclipse/tomcat/lib/jasper.jar" />
+          <element id="file-copy" path="D:/SoftWare/eclipse/tomcat/lib/jsp-api.jar" />
+          <element id="file-copy" path="D:/SoftWare/eclipse/tomcat/lib/catalina.jar" />
+          <element id="file-copy" path="D:/SoftWare/eclipse/tomcat/lib/jasper-el.jar" />
+          <element id="file-copy" path="D:/SoftWare/eclipse/tomcat/lib/ecj-4.7.3a.jar" />
+          <element id="file-copy" path="D:/SoftWare/eclipse/tomcat/lib/jaspic-api.jar" />
+          <element id="file-copy" path="D:/SoftWare/eclipse/tomcat/lib/tomcat-api.jar" />
+          <element id="file-copy" path="D:/SoftWare/eclipse/tomcat/lib/tomcat-jni.jar" />
+          <element id="file-copy" path="D:/SoftWare/eclipse/tomcat/lib/catalina-ha.jar" />
+          <element id="file-copy" path="D:/SoftWare/eclipse/tomcat/lib/servlet-api.jar" />
+          <element id="file-copy" path="D:/SoftWare/eclipse/tomcat/lib/tomcat-dbcp.jar" />
+          <element id="file-copy" path="D:/SoftWare/eclipse/tomcat/lib/tomcat-jdbc.jar" />
+          <element id="file-copy" path="D:/SoftWare/eclipse/tomcat/lib/tomcat-util.jar" />
+          <element id="file-copy" path="D:/SoftWare/eclipse/tomcat/lib/c3p0-0.9.5.2.jar" />
+          <element id="file-copy" path="D:/SoftWare/eclipse/tomcat/lib/catalina-ant.jar" />
+          <element id="file-copy" path="D:/SoftWare/eclipse/tomcat/lib/tomcat-coyote.jar" />
+          <element id="file-copy" path="D:/SoftWare/eclipse/tomcat/lib/websocket-api.jar" />
+          <element id="file-copy" path="D:/SoftWare/eclipse/tomcat/lib/tomcat-i18n-es.jar" />
+          <element id="file-copy" path="D:/SoftWare/eclipse/tomcat/lib/tomcat-i18n-fr.jar" />
+          <element id="file-copy" path="D:/SoftWare/eclipse/tomcat/lib/tomcat-i18n-ja.jar" />
+          <element id="file-copy" path="D:/SoftWare/eclipse/tomcat/lib/tomcat-i18n-ru.jar" />
+          <element id="file-copy" path="D:/SoftWare/eclipse/tomcat/lib/annotations-api.jar" />
+          <element id="file-copy" path="D:/SoftWare/eclipse/tomcat/lib/catalina-tribes.jar" />
+          <element id="file-copy" path="D:/SoftWare/eclipse/tomcat/lib/commons-io-2.8.0.jar" />
+          <element id="file-copy" path="D:/SoftWare/eclipse/tomcat/lib/tomcat-util-scan.jar" />
+          <element id="file-copy" path="D:/SoftWare/eclipse/tomcat/lib/tomcat-websocket.jar" />
+          <element id="file-copy" path="D:/SoftWare/eclipse/tomcat/lib/commons-dbutils-1.7.jar" />
+          <element id="file-copy" path="D:/SoftWare/eclipse/tomcat/lib/catalina-storeconfig.jar" />
+          <element id="file-copy" path="D:/SoftWare/eclipse/tomcat/lib/apache-tomcat-9.0.16-src.zip" />
+          <element id="file-copy" path="D:/SoftWare/eclipse/tomcat/lib/mchange-commons-java-0.2.11.jar" />
+          <element id="file-copy" path="D:/SoftWare/eclipse/tomcat/lib/mysql-connector-java-8.0.11.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -287,14 +287,40 @@
         <servlet-name>Day21ServletA1</servlet-name>
         <url-pattern>/Day21ServletA1</url-pattern>
     </servlet-mapping>
-    
-    
-    
-    
-    
-    
-    
-    
+    <servlet>
+        <servlet-name>UploadLearn1</servlet-name>
+        <servlet-class>day22.upload.UploadLearn1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UploadLearn1</servlet-name>
+        <url-pattern>/UploadLearn1</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>UploadLearn2</servlet-name>
+        <servlet-class>day22.upload.UploadLearn2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UploadLearn2</servlet-name>
+        <url-pattern>/UploadLearn2</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UploadLearn3</servlet-name>
+        <servlet-class>day22.upload.UploadLearn3</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UploadLearn3</servlet-name>
+        <url-pattern>/UploadLearn3</url-pattern>
+    </servlet-mapping>
+
+
+
+
+
+
+
+
+
     <filter>
         <filter-name>Day21FilterA1</filter-name>
         <filter-class>day21.FilterLearn.Day21FilterA1</filter-class>
