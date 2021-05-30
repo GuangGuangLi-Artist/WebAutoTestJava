@@ -312,6 +312,14 @@
         <servlet-name>UploadLearn3</servlet-name>
         <url-pattern>/UploadLearn3</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>DownloadLearn1</servlet-name>
+        <servlet-class>day22.download.DownloadLearn1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DownloadLearn1</servlet-name>
+        <url-pattern>/DownloadLearn1</url-pattern>
+    </servlet-mapping>
 
 
 

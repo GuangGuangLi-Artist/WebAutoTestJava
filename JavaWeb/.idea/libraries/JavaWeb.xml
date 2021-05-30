@@ -19,6 +19,8 @@
       <root url="jar://E:/java-api中文版/jarPackage/jar_files/mchange-commons-java-0.2.11.jar!/" />
       <root url="jar://E:/java-api中文版/jarPackage/servlet-api.jar!/" />
       <root url="jar://E:/java-api中文版/jarPackage/commons-fileupload-1.4.jar!/" />
+      <root url="jar://E:/java-api中文版/jarPackage/activation-2.1.3.jar!/" />
+      <root url="jar://E:/java-api中文版/jarPackage/javax.mail.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://E:/java-api中文版/jarPackage/commons-io-2.8.0-bin.zip!/commons-io-2.8.0/docs" />
