@@ -321,6 +321,24 @@
         <url-pattern>/DownloadLearn1</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>Day23FirstServelt</servlet-name>
+        <servlet-class>day23.servletCollections.Day23FirstServelt</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Day23FirstServelt</servlet-name>
+        <url-pattern>/Day23FirstServelt</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Day23SecondServelt</servlet-name>
+        <servlet-class>day23.servletCollections.Day23SecondServelt</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Day23SecondServelt</servlet-name>
+        <url-pattern>/Day23SecondServelt</url-pattern>
+    </servlet-mapping>
+
 
 
 
