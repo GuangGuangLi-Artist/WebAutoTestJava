@@ -338,6 +338,14 @@
         <servlet-name>Day23SecondServelt</servlet-name>
         <url-pattern>/Day23SecondServelt</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>Day23ThirdServelt</servlet-name>
+        <servlet-class>day23.servletCollections.Day23ThirdServelt</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Day23ThirdServelt</servlet-name>
+        <url-pattern>/Day23ThirdServelt</url-pattern>
+    </servlet-mapping>
 
 
 

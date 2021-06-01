@@ -23,7 +23,7 @@ public class MailDemo {
         Authenticator authenticator = new Authenticator() {
             @Override
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication("15607521232","YCUGTGMIHXRVJLCF");//邮箱账号和授权码
+                return new PasswordAuthentication("15607521232","YCUGTGMIHXRVJLC");//邮箱账号和授权码
             }
         };
         Session session =  Session.getInstance(properties,authenticator);
@@ -55,7 +55,7 @@ public class MailDemo {
         Authenticator authenticator = new Authenticator() {
             @Override
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication("15607521232","YCUGTGMIHXRVJLCF");//邮箱账号和授权码
+                return new PasswordAuthentication("15607521232","YCUGTGMIHXRVJLC");//邮箱账号和授权码
             }
         };
         Session session =  Session.getInstance(properties,authenticator);
@@ -97,7 +97,7 @@ public class MailDemo {
     @Test
     public void fun3() throws IOException, MessagingException {
         //得到session
-        Session session = MailUtils.createSession("smtp.163.com","15607521232","YCUGTGMIHXRVJLCF");
+        Session session = MailUtils.createSession("smtp.163.com","15607521232","YCUGTGMIHXRVJLC");
 
         //创建邮件对象
         Mail mail = new Mail("15607521232@163.com","940102569@qq.com","不是垃圾邮件了","这是正文");
