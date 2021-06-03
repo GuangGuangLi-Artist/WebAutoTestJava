@@ -347,6 +347,24 @@
         <url-pattern>/Day23ThirdServelt</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>Day23ProvinceServlet</servlet-name>
+        <servlet-class>day23.servletCollections.Day23ProvinceServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Day23ProvinceServlet</servlet-name>
+        <url-pattern>/Day23ProvinceServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Day23CityServlet</servlet-name>
+        <servlet-class>day23.servletCollections.Day23CityServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Day23CityServlet</servlet-name>
+        <url-pattern>/Day23CityServlet</url-pattern>
+    </servlet-mapping>
+
 
 
 
