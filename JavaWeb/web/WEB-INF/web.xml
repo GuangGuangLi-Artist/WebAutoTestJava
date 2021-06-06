@@ -287,6 +287,25 @@
         <servlet-name>Day21ServletA1</servlet-name>
         <url-pattern>/Day21ServletA1</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Day21LoginServlet</servlet-name>
+        <servlet-class>day21.authorityManagement.servlet.Day21LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Day21LoginServlet</servlet-name>
+        <url-pattern>/Day21LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SolveGarbledServlet</servlet-name>
+        <servlet-class>day21.SolveGarbled.SolveGarbledServlet.SolveGarbledServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SolveGarbledServlet</servlet-name>
+        <url-pattern>/SolveGarbledServlet</url-pattern>
+    </servlet-mapping>
+
     <servlet>
         <servlet-name>UploadLearn1</servlet-name>
         <servlet-class>day22.upload.UploadLearn1</servlet-class>
@@ -365,6 +384,15 @@
         <url-pattern>/Day23CityServlet</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>Day23JsonServlet</servlet-name>
+        <servlet-class>day23.json.Day23JsonServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Day23JsonServlet</servlet-name>
+        <url-pattern>/Day23JsonServlet</url-pattern>
+    </servlet-mapping>
+
 
 
 
@@ -390,6 +418,30 @@
         <filter-name>/IPFilter</filter-name>
         <url-pattern>/*</url-pattern>
     </filter-mapping>
+    <filter>
+        <filter-name>AdminFilter</filter-name>
+        <filter-class>day21.authorityManagement.filter.AdminFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>AdminFilter</filter-name>
+        <url-pattern>/day21/admin/*</url-pattern>
+    </filter-mapping>
+    <filter>
+        <filter-name>UserFilter</filter-name>
+        <filter-class>day21.authorityManagement.filter.UserFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>UserFilter</filter-name>
+        <url-pattern>/day21/user/*</url-pattern>
+    </filter-mapping>
+    <filter>
+        <filter-name>EncodingFilter</filter-name>
+        <filter-class>day21.SolveGarbled.SolveGarbledFilter.EncodingFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>EncodingFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
 
     
     <listener>
@@ -401,6 +453,10 @@
     <listener>
         <listener-class>day21.IPCount.IPCountListener.IPCountListener</listener-class>
     </listener>
+
+
+
+
     <context-param>
         <param-name>xxx</param-name>
         <param-value>Eljsp</param-value>

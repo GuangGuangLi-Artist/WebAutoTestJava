@@ -21,6 +21,16 @@
       <root url="jar://E:/java-api中文版/jarPackage/commons-fileupload-1.4.jar!/" />
       <root url="jar://E:/java-api中文版/jarPackage/activation-2.1.3.jar!/" />
       <root url="jar://E:/java-api中文版/jarPackage/javax.mail.jar!/" />
+      <root url="jar://E:/java-api中文版/jarPackage/xstream-1.4.17.jar!/" />
+      <root url="jar://E:/java-api中文版/jarPackage/xpp3_min-1.1.4c.jar!/" />
+      <root url="jar://E:/java-api中文版/jarPackage/xom-1.3.7.jar!/" />
+      <root url="jar://E:/java-api中文版/jarPackage/json-lib-2.4-jdk13.jar!/" />
+      <root url="jar://E:/java-api中文版/jarPackage/ezmorph-1.0.6.jar!/" />
+      <root url="jar://E:/java-api中文版/jarPackage/commons-logging-1.2.jar!/" />
+      <root url="jar://E:/java-api中文版/jarPackage/commons-lang3-3.12.0.jar!/" />
+      <root url="jar://E:/java-api中文版/jarPackage/commons-collections4-4.4.jar!/" />
+      <root url="jar://E:/java-api中文版/jarPackage/commons-lang-2.6.jar!/" />
+      <root url="jar://E:/java-api中文版/jarPackage/commons-collections-3.2.2.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://E:/java-api中文版/jarPackage/commons-io-2.8.0-bin.zip!/commons-io-2.8.0/docs" />
