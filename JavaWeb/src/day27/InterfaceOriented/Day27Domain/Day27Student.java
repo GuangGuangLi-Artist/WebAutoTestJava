@@ -5,6 +5,23 @@ public class Day27Student {
     private String name;
     private int age;
     private String sex;
+    private Day27Teacher day27Teacher;
+
+    public Day27Teacher getDay27Teacher() {
+        return day27Teacher;
+    }
+
+    public void setDay27Teacher(Day27Teacher day27Teacher) {
+        this.day27Teacher = day27Teacher;
+    }
+
+    public String getNumber() {
+        return number;
+    }
+
+    public void setNumber(String number) {
+        this.number = number;
+    }
 
     public Day27Student() {
     }

@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <beans>
-    <bean id="stu1" classname="">
+    <bean id="stu1" classname="day27.InterfaceOriented.Day27Domain.Day27Student">
+        <property name="number" value="Stu_001"></property>
+        <property name="name" value="zhangsan"></property>
+        <property name="age" value="29"></property>
+        <property name="sex" value="male"></property>
+        <property name="teacher" ref="t1"></property><!-- ref的值必须是另一个been的id -->
+    </bean>
 
+    <bean id="stu2" classname="day27.InterfaceOriented.Day27Domain.Day27Student">
+        <property name="number" value="Stu_002"></property>
+        <property name="name" value="lisi"></property>
+        <property name="age" value="30"></property>
+        <property name="sex" value="female"></property>
+        <property name="teacher" ref="t1"></property><!-- ref的值必须是另一个been的id -->
+    </bean>
+
+    <bean id="t1" classname="day27.InterfaceOriented.Day27Domain.Day27Teacher">
+        <property name="tid" value="Teacher_001"></property>
+        <property name="name" value="teacherWang"></property>
+        <property name="salary" value="123.456"></property>
+    </bean>
+
+    <bean id="StuDao" classname="day27.InterfaceOriented.day27Dao.day27DaoImple.Day27StudentImpl"></bean>
+
+    <bean id="stuService" classname="day27.InterfaceOriented.day27Service.day27ServiceImpl.Day27StudentServiceImpl">
+        <property name="Day27StudentDao" ref="StuDao"></property>
     </bean>
 </beans>
