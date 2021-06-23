@@ -36,7 +36,7 @@ public class Day28UploadServlet extends HttpServlet {
         System.out.println(part.getHeader("Content-Disposition"));
 
         //保存上传文件
-        part.write("F:\\音乐\\day28test.jpg   ");
+        part.write("F:\\音乐\\day28test.jpg");
 
         //获取上传文件名称
         String filename = part.getHeader("Content-Disposition");
