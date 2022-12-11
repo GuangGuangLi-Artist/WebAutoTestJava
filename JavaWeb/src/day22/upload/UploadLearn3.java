@@ -28,6 +28,7 @@ public class UploadLearn3 extends HttpServlet {
          * 2：通过工厂创建解析器
          * 3：解析request,得到FileItem集合
          * 4：遍历FileItem集合，调用其API完成文件的保存
+         *
          */
         //DiskFileItemFactory diskFileItemFactory = new DiskFileItemFactory();
         DiskFileItemFactory diskFileItemFactory = new DiskFileItemFactory(20*1024,new File("F://f/temp"));

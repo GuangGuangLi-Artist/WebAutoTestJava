@@ -42,7 +42,7 @@ public class UploadLearn2 extends HttpServlet {
             System.out.println("filename: " + fileItem2.getName());
 
             //保存文件
-            File destFile = new File("E:\\ideaworkspace\\WebAutoTestJava\\JavaWeb\\src\\day22\\savedFile\\ConfidentAndFearless.jpg");
+            File destFile = new File("F:\\ideaWorkspace\\WebAutoTestJava\\JavaWeb\\src\\day22\\savedFile\\ConfidentAndFearless.jpg");
             fileItem2.write(destFile);
 
 
