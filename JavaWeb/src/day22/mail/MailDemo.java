@@ -1,8 +1,8 @@
 package day22.mail;
 
-import cn.itcast.mail.AttachBean;
-import cn.itcast.mail.Mail;
-import cn.itcast.mail.MailUtils;
+//import cn.itcast.mail.AttachBean;
+//import cn.itcast.mail.Mail;
+//import cn.itcast.mail.MailUtils;
 import org.junit.Test;
 
 import javax.mail.*;
@@ -94,24 +94,23 @@ public class MailDemo {
 
     }
 
-    @Test
-    public void fun3() throws IOException, MessagingException {
-        //得到session
-        Session session = MailUtils.createSession("smtp.163.com","15607521232","YCUGTGMIHXRVJLC");
-
-        //创建邮件对象
-        Mail mail = new Mail("15607521232@163.com","940102569@qq.com","不是垃圾邮件了","这是正文");
-
-
-        //创建附件对象
-        AttachBean attachBean1 = new AttachBean(new File("F:\\音乐\\周杰伦无损\\十二新作\\周杰伦 - 红尘客栈.flac"),"周董.flac");
-        AttachBean attachBean2 = new AttachBean(new File("C:\\Users\\94010\\Desktop\\ConfidentAndFearless.jpg"),"美女.jpg");
-
-        mail.addAttach(attachBean1);
-        mail.addAttach(attachBean2);
-
-        MailUtils.send(session,mail);
-
-    }
+//    @Test
+//    public void fun3() throws IOException, MessagingException {
+//        //得到session
+//        Session session = MailUtils.createSession("smtp.163.com","15607521232","YCUGTGMIHXRVJLC");
+//
+//        //创建邮件对象
+//        Mail mail = new Mail("15607521232@163.com","940102569@qq.com","不是垃圾邮件了","这是正文");
+//
+//
+//        //创建附件对象
+//        AttachBean attachBean1 = new AttachBean(new File("F:\\音乐\\周杰伦无损\\十二新作\\周杰伦 - 红尘客栈.flac"),"周董.flac");
+//        AttachBean attachBean2 = new AttachBean(new File("C:\\Users\\94010\\Desktop\\ConfidentAndFearless.jpg"),"美女.jpg");
+//
+//        mail.addAttach(attachBean1);
+//        mail.addAttach(attachBean2);
+//
+//        MailUtils.send(session,mail);
+//    }
 
 }

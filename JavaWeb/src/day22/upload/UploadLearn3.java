@@ -1,6 +1,6 @@
 package day22.upload;
 
-import cn.itcast.commons.CommonUtils;
+import cn.itcast.utils.CommonUtils;
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.FileUploadBase;
 import org.apache.commons.fileupload.FileUploadException;

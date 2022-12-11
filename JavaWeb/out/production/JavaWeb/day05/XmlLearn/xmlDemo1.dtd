@@ -1,3 +1,0 @@
-<!ELEMENT person (name,age)>
-<!ELEMENT name (#PCDATA)>
-<!ELEMENT age (#PCDATA)>
